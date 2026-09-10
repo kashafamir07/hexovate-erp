@@ -1,0 +1,87 @@
+# board 2 (workspace) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+        ▢ FRAME "nav-item" @12,123 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,135 146x17 fs=14 w=Medium c=#1f3c88 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,215 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,262 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,293 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,333 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,373 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,421 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,452 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,492 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,540 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,571 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 148x17 fs=14 w=Semi Bold c=#374151 :: Personal Workspace
+      ▢ FRAME "top-search" @420,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @457,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+      ▢ FRAME "card" @268,84 984x122 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          ▢ FRAME "avatar" @293,105 80x80 r=50 fill=#1f3c88
+            T @316,129 35x32 fs=26 w=Bold c=#ffffff :: JC
+            T @391,114 696x18 fs=18 w=Bold c=#374151 :: Jordan Cole
+            T @391,136 696x14 fs=12 w=Regular c=#6b7280 :: Product Designer · Design Department
+            ▢ FRAME "badge" @391,157 49x19 r=4 fill=#eaf3de
+            T @399,159 34x11 fs=11 w=Medium c=#16a34a :: Active
+          ▢ FRAME "btn" @1097,127 130x36 r=8 fill=#eef2ff stroke=#c7d2fe sw=1
+            T @1114,128 96x34 fs=14 w=Regular c=#1f3c88 :: Edit Profile
+          T @284,236 60x16 fs=13 w=Semi Bold c=#1f3c88 :: Overview
+          T @380,236 73x16 fs=13 w=Semi Bold c=#6b7280 :: Documents
+          T @488,236 66x16 fs=13 w=Semi Bold c=#6b7280 :: Time Logs
+          T @589,236 87x16 fs=13 w=Semi Bold c=#6b7280 :: Leave History
+          T @711,236 53x16 fs=13 w=Semi Bold c=#6b7280 :: Settings
+          ▢ FRAME "card" @268,385 643x193 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,406 600x19 fs=16 w=Bold c=#374151 :: Contact Information
+            T @293,451 128x14 fs=12 w=Regular c=#6b7280 :: Work Email
+            T @425,451 162x14 fs=12 w=Regular c=#374151 :: jordan.cole@hexovate.com
+            T @293,491 128x14 fs=12 w=Regular c=#6b7280 :: Phone
+            T @425,491 110x14 fs=12 w=Regular c=#374151 :: +1 (415) 555-0148
+            T @293,530 128x14 fs=12 w=Regular c=#6b7280 :: Location
+            T @425,530 87x14 fs=12 w=Regular c=#374151 :: New York, NY
+          ▢ FRAME "card" @268,594 643x91 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,615 600x19 fs=16 w=Bold c=#374151 :: Skills
+            ▢ FRAME "chip" @293,648 41x16 r=4 fill=#eef2ff
+            T @299,649 30x10 fs=10 w=Medium c=#1f3c88 :: Figma
+            ▢ FRAME "chip" @342,648 89x16 r=4 fill=#eef2ff
+            T @348,649 77x10 fs=10 w=Medium c=#1f3c88 :: Design Systems
+            ▢ FRAME "chip" @439,648 82x16 r=4 fill=#eef2ff
+            T @445,649 70x10 fs=10 w=Medium c=#1f3c88 :: User Research
+            ▢ FRAME "chip" @529,648 68x16 r=4 fill=#eef2ff
+            T @535,649 56x10 fs=10 w=Medium c=#1f3c88 :: Prototyping
+          ▢ FRAME "card" @931,385 321x193 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @956,406 279x19 fs=16 w=Bold c=#374151 :: Employment Details
+            T @956,451 128x14 fs=12 w=Regular c=#6b7280 :: Manager
+            T @1088,451 71x14 fs=12 w=Regular c=#374151 :: Alex Rivera
+            T @956,491 128x14 fs=12 w=Regular c=#6b7280 :: Start Date
+            T @1088,491 77x14 fs=12 w=Regular c=#374151 :: Mar 4, 2023
+            T @956,530 128x14 fs=12 w=Regular c=#6b7280 :: Employment Type
+            T @1088,530 57x14 fs=12 w=Regular c=#374151 :: Full-time
+          ▢ FRAME "card" @931,594 321x153 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @956,615 279x19 fs=16 w=Bold c=#374151 :: Emergency Contact
+            T @956,660 128x14 fs=12 w=Regular c=#6b7280 :: Name
+            T @1088,660 64x14 fs=12 w=Regular c=#374151 :: Riley Cole
+            T @956,699 128x14 fs=12 w=Regular c=#6b7280 :: Phone
+            T @1088,699 110x14 fs=12 w=Regular c=#374151 :: +1 (415) 555-0199
+          ▢ FRAME "div.card" @268,282 315x91 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,303 265x34 fs=28 w=Bold c=#1f3c88 :: 3
+            T @293,337 265x15 fs=12 w=Medium c=#6b7280 :: Active Projects
+          ▢ FRAME "div.card" @602,282 315x91 fill=#ffffff stroke=#e5e7eb sw=1
+            T @627,303 265x34 fs=28 w=Bold c=#1f3c88 :: Frontend
+            T @627,337 265x15 fs=12 w=Medium c=#6b7280 :: Primary Track
+          ▢ FRAME "div.card" @935,282 315x91 fill=#ffffff stroke=#e5e7eb sw=1
+            T @960,303 265x34 fs=28 w=Bold c=#1f3c88 :: 2y 5m
+            T @960,337 265x15 fs=12 w=Medium c=#6b7280 :: Tenure

@@ -1,0 +1,371 @@
+/* ============================================================
+   App shell
+   Two layouts rendered by JS breakpoint (>=1024px desktop):
+   - .desktop-layout : sidebar + (topbar + content)
+   - .mobile-layout  : mobile top bar + content + bottom tabs
+   ============================================================ */
+
+/* ---- Desktop shell --------------------------------------- */
+.desktop-layout {
+  display: flex;
+  height: 100vh;
+  min-width: 0;
+  background: #ffffff;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.app-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  position: relative;
+  padding: 44px 28px 54px;
+}
+
+/* ---- Sidebar ---------------------------------------------- */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: var(--sidebar-w);
+  background: #ffffff;
+  border-right: 1px solid var(--line);
+  flex: none;
+}
+
+.sidebar-brand {
+  height: 54px;
+  flex: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sidebar-brand .wordmark {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.sidebar-nav {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.nav-group + .nav-group {
+  margin-top: 20px;
+}
+
+.nav-section-label {
+  display: block;
+  padding: 0 0 9px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: calc(100% - 24px);
+  margin: 0 12px;
+  height: 40px;
+  padding: 0 12px 0 10px; /* icon column aligns with section labels at x22 */
+  border: 1px solid transparent;
+  border-radius: var(--radius-ctl);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: left;
+  background: transparent;
+}
+
+.nav-item svg {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+.nav-item .nav-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* live count badge (e.g. Approvals Inbox 5) */
+.nav-badge {
+  margin-left: auto;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--danger);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item:hover {
+  background: #f4f6fd;
+}
+
+.nav-item.active {
+  background: var(--light);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* User card pinned to the bottom of the sidebar */
+.side-user {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 61px;
+  padding: 0 16px;
+  border-top: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.side-user .u-meta {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.side-user .u-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.side-user .u-role {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---- Topbar (desktop) ------------------------------------- */
+.topbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: var(--topbar-h);
+  padding: 0 24px;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar .breadcrumb {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.topbar .breadcrumb.crumb-detail {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.top-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 36px;
+  min-width: 200px;
+  flex: 0 1 420px;
+  padding: 0 12px;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-ctl);
+  color: var(--muted);
+  font-size: 13px;
+  text-align: left;
+  cursor: text;
+}
+
+.top-search:hover {
+  border-color: var(--mid);
+}
+
+.top-search svg {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  stroke-width: 2;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-left: auto;
+}
+
+.icon-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radius-ctl);
+  background: var(--surface-soft);
+  color: var(--ink);
+}
+
+.icon-btn svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 2;
+}
+
+.icon-btn:hover {
+  background: #eef1f5;
+}
+
+.count-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 14px;
+  height: 14px;
+  padding: 0 3px;
+  border-radius: var(--radius-pill);
+  background: var(--danger);
+  color: #ffffff;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* ============================================================
+   Mobile chrome
+   ============================================================ */
+.mobile-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 0;
+  background: #ffffff;
+}
+
+.mobile-topbar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  height: var(--mobile-topbar-h);
+  padding: 0 12px 0 8px;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+}
+
+.mobile-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.mobile-topbar .wordmark {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mobile-topbar .wordmark.brand {
+  color: var(--primary);
+}
+
+.mobile-layout .icon-btn {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+}
+
+.mobile-layout .icon-btn:hover {
+  background: var(--surface-soft);
+}
+
+.mobile-layout .icon-btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.mobile-layout .count-badge {
+  top: -2px;
+  right: -2px;
+}
+
+.mobile-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  position: relative;
+}
+
+.mobile-tabs {
+  flex: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: var(--mobile-tabs-h);
+  background: #ffffff;
+  border-top: 1px solid var(--line);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.tab svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
+}
+
+.tab.active {
+  color: var(--primary);
+}

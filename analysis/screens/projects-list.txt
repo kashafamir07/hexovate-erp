@@ -1,0 +1,130 @@
+# board 6 (projects-list) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,220 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,268 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+        ▢ FRAME "nav-item" @12,287 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,299 63x17 fs=14 w=Medium c=#1f3c88 :: Projects
+          T @54,339 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,379 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,427 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,458 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,498 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,546 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,577 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 63x17 fs=14 w=Semi Bold c=#374151 :: Projects
+      ▢ FRAME "top-search" @335,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @373,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+        T @268,89 96x27 fs=22 w=Bold c=#1f3c88 :: Projects
+        ▢ FRAME "btn" @1118,84 134x36 r=8 fill=#1f3c88
+          T @1134,84 102x36 fs=14 w=Regular c=#ffffff :: New Project
+        ▢ FRAME "btn" @268,140 43x30 r=8 fill=#eef2ff stroke=#c7d2fe sw=1
+          T @281,141 17x28 fs=13 w=Regular c=#1f3c88 :: All
+          T @334,141 73x28 fs=13 w=Regular c=#374151 :: My Projects
+          T @443,141 60x28 fs=13 w=Regular c=#374151 :: Status
+          T @539,141 92x28 fs=13 w=Regular c=#374151 :: Date Range
+        ▢ FRAME "card" @268,188 316x183 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,209 149x19 fs=16 w=Bold c=#374151 :: Website Redesign
+            ▢ FRAME "badge" @510,209 49x19 r=4 fill=#eef2ff
+            T @518,211 34x11 fs=11 w=Medium c=#1f3c88 :: Active
+          T @293,234 274x28 fs=12 w=Regular c=#6b7280 :: Full marketing site rebuild with new brand system
+            ▢ FRAME "avatar" @293,277 32x32 r=50 fill=#2e86ab
+            T @302,286 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @317,277 32x32 r=50 fill=#16a34a
+            T @323,286 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @341,277 32x32 r=50 fill=#6b7280
+            T @349,286 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @293,321 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @293,321 199x6 r=4 fill=#1f3c88
+            T @293,335 89x14 fs=12 w=Regular c=#6b7280 :: 75% complete
+            T @495,335 72x14 fs=12 w=Regular c=#6b7280 :: Due Oct 24
+        ▢ FRAME "card" @602,188 316x183 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @627,209 165x19 fs=16 w=Bold c=#374151 :: ERP Implementation
+            ▢ FRAME "badge" @844,209 49x19 r=4 fill=#eef2ff
+            T @852,211 34x11 fs=11 w=Medium c=#1f3c88 :: Active
+          T @627,234 274x28 fs=12 w=Regular c=#6b7280 :: Internal rollout of Hexovate modules company-wide
+            ▢ FRAME "avatar" @627,277 32x32 r=50 fill=#2e86ab
+            T @636,286 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @651,277 32x32 r=50 fill=#16a34a
+            T @657,286 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @675,277 32x32 r=50 fill=#6b7280
+            T @683,286 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @627,321 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @627,321 80x6 r=4 fill=#1f3c88
+            T @627,335 91x14 fs=12 w=Regular c=#6b7280 :: 30% complete
+            T @826,335 75x14 fs=12 w=Regular c=#6b7280 :: Due Nov 30
+        ▢ FRAME "card" @936,188 316x183 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @961,209 120x19 fs=16 w=Bold c=#374151 :: Mobile App v2
+            ▢ FRAME "badge" @1169,209 58x19 r=4 fill=#fef3c7
+            T @1177,211 43x11 fs=11 w=Medium c=#b45309 :: On Hold
+          T @961,234 274x14 fs=12 w=Regular c=#6b7280 :: Native app refresh for employee self-service
+            ▢ FRAME "avatar" @961,263 32x32 r=50 fill=#2e86ab
+            T @970,271 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @985,263 32x32 r=50 fill=#16a34a
+            T @991,271 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @1009,263 32x32 r=50 fill=#6b7280
+            T @1017,271 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @961,306 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @961,306 128x6 r=4 fill=#1f3c88
+            T @961,320 91x14 fs=12 w=Regular c=#6b7280 :: 48% complete
+            T @1163,320 72x14 fs=12 w=Regular c=#6b7280 :: Due Dec 15
+        ▢ FRAME "card" @268,388 316x168 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,410 115x19 fs=16 w=Bold c=#374151 :: Q4 Campaign
+            ▢ FRAME "badge" @510,410 49x19 r=4 fill=#eef2ff
+            T @518,411 34x11 fs=11 w=Medium c=#1f3c88 :: Active
+          T @293,435 274x14 fs=12 w=Regular c=#6b7280 :: Cross-channel product launch campaign
+            ▢ FRAME "avatar" @293,463 32x32 r=50 fill=#2e86ab
+            T @302,472 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @317,463 32x32 r=50 fill=#16a34a
+            T @323,472 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @341,463 32x32 r=50 fill=#6b7280
+            T @349,472 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @293,507 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @293,507 165x6 r=4 fill=#1f3c88
+            T @293,521 90x14 fs=12 w=Regular c=#6b7280 :: 62% complete
+            T @499,521 68x14 fs=12 w=Regular c=#6b7280 :: Due Nov 8
+        ▢ FRAME "card" @602,388 316x168 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @627,410 115x19 fs=16 w=Bold c=#374151 :: Vendor Portal
+            ▢ FRAME "badge" @820,410 73x19 r=4 fill=#eaf3de
+            T @828,411 58x11 fs=11 w=Medium c=#16a34a :: Completed
+          T @627,435 274x14 fs=12 w=Regular c=#6b7280 :: Self-serve portal for external vendors
+            ▢ FRAME "avatar" @627,463 32x32 r=50 fill=#2e86ab
+            T @636,472 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @651,463 32x32 r=50 fill=#16a34a
+            T @657,472 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @675,463 32x32 r=50 fill=#6b7280
+            T @683,472 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @627,507 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @627,507 266x6 r=4 fill=#1f3c88
+            T @627,521 96x14 fs=12 w=Regular c=#6b7280 :: 100% complete
+            T @826,521 74x14 fs=12 w=Regular c=#6b7280 :: Due Sep 30
+        ▢ FRAME "card" @936,388 316x168 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @961,410 155x19 fs=16 w=Bold c=#374151 :: Design System 2.0
+            ▢ FRAME "badge" @1178,410 49x19 r=4 fill=#eef2ff
+            T @1186,411 34x11 fs=11 w=Medium c=#1f3c88 :: Active
+          T @961,435 274x14 fs=12 w=Regular c=#6b7280 :: Component library and token refresh
+            ▢ FRAME "avatar" @961,463 32x32 r=50 fill=#2e86ab
+            T @970,472 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            ▢ FRAME "avatar" @985,463 32x32 r=50 fill=#16a34a
+            T @991,472 21x14 fs=12 w=Bold c=#ffffff :: MC
+            ▢ FRAME "avatar" @1009,463 32x32 r=50 fill=#6b7280
+            T @1017,472 17x14 fs=12 w=Bold c=#ffffff :: +3
+          ▢ FRAME "progress" @961,507 266x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @961,507 106x6 r=4 fill=#1f3c88
+            T @961,521 91x14 fs=12 w=Regular c=#6b7280 :: 40% complete
+            T @1170,521 65x14 fs=12 w=Regular c=#6b7280 :: Due Dec 1

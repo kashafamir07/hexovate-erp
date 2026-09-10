@@ -1,0 +1,82 @@
+# board 16 (time-tracker) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,219 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+        ▢ FRAME "nav-item" @12,366 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,378 96x17 fs=14 w=Medium c=#1f3c88 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,457 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,497 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,576 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 97x17 fs=14 w=Semi Bold c=#374151 :: Time Tracker
+      ▢ FRAME "top-search" @369,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @406,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+        T @268,89 149x27 fs=22 w=Bold c=#1f3c88 :: Time Tracker
+        ▢ FRAME "btn" @1119,84 133x36 r=8 fill=#eef2ff stroke=#c7d2fe sw=1
+          T @1136,85 99x34 fs=14 w=Regular c=#1f3c88 :: Export CSV
+      ▢ FRAME "card" @268,140 984x107 r=12 fill=#1f3c88
+            T @292,160 308x14 fs=12 w=Regular c=#ffffff :: Currently tracking
+            T @292,178 308x15 fs=15 w=Bold c=#ffffff :: Design pricing page — Website Redesign
+            T @292,197 311x30 fs=30 w=Bold c=#ffffff :: 02:15:41
+            ▢ FRAME "btn" @1058,176 97x36 r=8 fill=#ffffff stroke=#ffffff sw=1
+            T @1075,177 63x34 fs=14 w=Regular c=#ffffff :: Pause
+            ▢ FRAME "btn" @1165,176 63x36 r=8 fill=#ffffff
+            T @1181,176 31x36 fs=14 w=Regular c=#1f3c88 :: Stop
+        ▢ FRAME "btn" @268,267 90x30 r=8 fill=#eef2ff stroke=#c7d2fe sw=1
+          T @281,269 64x28 fs=13 w=Regular c=#1f3c88 :: This Week
+          T @381,269 64x28 fs=13 w=Regular c=#374151 :: Project
+          T @482,269 79x28 fs=13 w=Regular c=#374151 :: Billable Only
+        ▢ FRAME "btn" @1126,267 126x30 r=8 fill=#1f3c88
+          T @1138,267 102x30 fs=13 w=Regular c=#ffffff :: Manual Entry
+      ▢ FRAME "card" @268,313 984x178 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "th" @269,315 100x32 fill=#f8f9fa stroke=#e5e7eb
+            T @283,322 30x11 fs=11 w=Semi Bold c=#6b7280 :: Date
+            ▢ FRAME "th" @370,315 232x32 fill=#f8f9fa stroke=#e5e7eb
+            T @384,322 30x11 fs=11 w=Semi Bold c=#6b7280 :: Task
+            ▢ FRAME "th" @602,315 228x32 fill=#f8f9fa stroke=#e5e7eb
+            T @616,322 54x11 fs=11 w=Semi Bold c=#6b7280 :: Project
+            ▢ FRAME "th" @829,315 134x32 fill=#f8f9fa stroke=#e5e7eb
+            T @843,322 60x11 fs=11 w=Semi Bold c=#6b7280 :: Duration
+            ▢ FRAME "th" @963,315 163x32 fill=#f8f9fa stroke=#e5e7eb
+            T @977,322 54x11 fs=11 w=Semi Bold c=#6b7280 :: Billable
+            ▢ FRAME "th" @1126,315 125x32 fill=#f8f9fa stroke=#e5e7eb
+            T @283,362 40x16 fs=13 w=Regular c=#6b7280 :: Oct 12
+            T @384,362 126x16 fs=13 w=Semi Bold c=#374151 :: Design pricing page
+            T @616,362 110x16 fs=13 w=Regular c=#6b7280 :: Website Redesign
+            T @843,362 45x16 fs=13 w=Regular c=#374151 :: 2h 15m
+            ▢ FRAME "badge" @977,361 54x19 r=4 fill=#eaf3de
+            T @985,362 38x11 fs=11 w=Medium c=#16a34a :: Billable
+            ▢ FRAME "tr" @269,394 982x48 fill=#f8f9fa
+            T @283,410 40x16 fs=13 w=Regular c=#6b7280 :: Oct 12
+            T @384,410 123x16 fs=13 w=Semi Bold c=#374151 :: Standup + planning
+            T @616,410 123x16 fs=13 w=Regular c=#6b7280 :: ERP Implementation
+            T @843,410 48x16 fs=13 w=Regular c=#374151 :: 0h 30m
+            ▢ FRAME "badge" @977,409 80x19 r=4 fill=#f3f4f6
+            T @985,410 64x11 fs=11 w=Medium c=#6b7280 :: Non-billable
+            T @283,458 40x16 fs=13 w=Regular c=#6b7280 :: Oct 12
+            T @384,458 124x16 fs=13 w=Semi Bold c=#374151 :: Homepage QA pass
+            T @616,458 110x16 fs=13 w=Regular c=#6b7280 :: Website Redesign
+            T @843,458 46x16 fs=13 w=Regular c=#374151 :: 1h 40m
+            ▢ FRAME "badge" @977,457 54x19 r=4 fill=#eaf3de
+            T @985,458 38x11 fs=11 w=Medium c=#16a34a :: Billable
+            ▢ FRAME "badge" @1140,457 54x19 r=4 fill=#fef3c7
+            T @1148,458 39x11 fs=11 w=Medium c=#b45309 :: Manual

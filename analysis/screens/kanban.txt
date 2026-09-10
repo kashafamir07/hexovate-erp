@@ -1,0 +1,128 @@
+# board 10 (kanban) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,218 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,266 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+        ▢ FRAME "nav-item" @12,285 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,297 63x17 fs=14 w=Medium c=#1f3c88 :: Projects
+          T @54,337 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,377 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,425 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,456 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,496 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,544 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,575 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 263x17 fs=12 w=Regular c=#000000 :: Projects  /  Website Redesign  /  Board
+      ▢ FRAME "top-search" @535,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @572,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+          T @268,84 201x27 fs=22 w=Bold c=#1f3c88 :: Website Redesign
+          T @268,111 201x14 fs=12 w=Regular c=#6b7280 :: Board
+        ▢ FRAME "btn" @1136,87 116x36 r=8 fill=#1f3c88
+          T @1152,87 84x36 fs=14 w=Regular c=#ffffff :: Add Task
+        ▢ FRAME "col" @268,145 230x792 r=10 fill=#f8f9fa
+            T @282,161 59x13 fs=13 w=Bold c=#374151 :: Backlog
+            ▢ FRAME "count-pill" @461,157 23x22 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            T @469,160 7x18 fs=11 w=Semi Bold c=#6b7280 :: 5
+          ▢ FRAME "task-card" @280,189 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @299,200 194x16 fs=13 w=Semi Bold c=#374151 :: Competitor audit
+            ▢ FRAME "chip" @299,227 57x16 r=4 fill=#eef2ff
+            T @305,228 45x10 fs=10 w=Medium c=#1f3c88 :: Research
+            ▢ FRAME "avatar" @451,224 22x22 r=50 fill=#1f3c88
+            T @456,229 13x11 fs=9 w=Bold c=#ffffff :: AR
+            T @299,252 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 18
+            ▢ FRAME "pseudo-before" @280,189 3x86 fill=#16a34a
+          ▢ FRAME "task-card" @280,287 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @299,298 194x16 fs=13 w=Semi Bold c=#374151 :: SEO keyword list
+            ▢ FRAME "chip" @299,325 60x16 r=4 fill=#eef2ff
+            T @305,327 49x10 fs=10 w=Medium c=#1f3c88 :: Marketing
+            ▢ FRAME "avatar" @451,322 22x22 r=50 fill=#1f3c88
+            T @456,327 12x11 fs=9 w=Bold c=#ffffff :: TB
+            T @299,350 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 20
+            ▢ FRAME "pseudo-before" @280,287 3x86 fill=#16a34a
+        ▢ FRAME "col" @514,145 230x792 r=10 fill=#f8f9fa
+            T @528,161 44x13 fs=13 w=Bold c=#374151 :: To Do
+            ▢ FRAME "count-pill" @706,157 24x22 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            T @715,160 8x18 fs=11 w=Semi Bold c=#6b7280 :: 4
+          ▢ FRAME "task-card" @526,189 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @545,200 194x16 fs=13 w=Semi Bold c=#374151 :: Design pricing page
+            ▢ FRAME "chip" @545,227 45x16 r=4 fill=#eef2ff
+            T @551,228 34x10 fs=10 w=Medium c=#1f3c88 :: Design
+            ▢ FRAME "avatar" @697,224 22x22 r=50 fill=#1f3c88
+            T @702,229 12x11 fs=9 w=Bold c=#ffffff :: JC
+            T @545,252 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 15
+            ▢ FRAME "pseudo-before" @526,189 3x86 fill=#b45309
+          ▢ FRAME "task-card" @526,287 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @545,298 194x16 fs=13 w=Semi Bold c=#374151 :: Write homepage copy
+            ▢ FRAME "chip" @545,325 50x16 r=4 fill=#eef2ff
+            T @551,327 39x10 fs=10 w=Medium c=#1f3c88 :: Content
+            ▢ FRAME "avatar" @697,322 22x22 r=50 fill=#1f3c88
+            T @702,327 12x11 fs=9 w=Bold c=#ffffff :: SJ
+            T @545,350 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 14
+            ▢ FRAME "pseudo-before" @526,287 3x86 fill=#dc2626
+        ▢ FRAME "col" @760,145 230x792 r=10 fill=#f8f9fa
+            T @774,161 80x13 fs=13 w=Bold c=#374151 :: In Progress
+            ▢ FRAME "count-pill" @953,157 23x22 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            T @961,160 8x18 fs=11 w=Semi Bold c=#6b7280 :: 3
+          ▢ FRAME "task-card" @772,189 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @791,200 194x16 fs=13 w=Semi Bold c=#374151 :: Build nav component
+            ▢ FRAME "chip" @791,227 55x16 r=4 fill=#eef2ff
+            T @797,228 44x10 fs=10 w=Medium c=#1f3c88 :: Frontend
+            ▢ FRAME "avatar" @943,224 22x22 r=50 fill=#1f3c88
+            T @947,229 13x11 fs=9 w=Bold c=#ffffff :: DK
+            T @791,252 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 13
+            ▢ FRAME "pseudo-before" @772,189 3x86 fill=#dc2626
+          ▢ FRAME "task-card" @772,287 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @791,298 194x16 fs=13 w=Semi Bold c=#374151 :: Mobile breakpoints
+            ▢ FRAME "chip" @791,325 45x16 r=4 fill=#eef2ff
+            T @797,327 34x10 fs=10 w=Medium c=#1f3c88 :: Design
+            ▢ FRAME "avatar" @943,322 22x22 r=50 fill=#1f3c88
+            T @948,327 12x11 fs=9 w=Bold c=#ffffff :: JC
+            T @791,350 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 16
+            ▢ FRAME "pseudo-before" @772,287 3x86 fill=#b45309
+        ▢ FRAME "col" @1006,145 230x792 r=10 fill=#f8f9fa
+            T @1020,161 69x13 fs=13 w=Bold c=#374151 :: In Review
+            ▢ FRAME "count-pill" @1199,157 23x22 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            T @1207,160 7x18 fs=11 w=Semi Bold c=#6b7280 :: 2
+          ▢ FRAME "task-card" @1018,189 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @1037,200 194x16 fs=13 w=Semi Bold c=#374151 :: Homepage wireframes
+            ▢ FRAME "chip" @1037,227 45x16 r=4 fill=#eef2ff
+            T @1043,228 34x10 fs=10 w=Medium c=#1f3c88 :: Design
+            ▢ FRAME "avatar" @1189,224 22x22 r=50 fill=#1f3c88
+            T @1194,229 12x11 fs=9 w=Bold c=#ffffff :: JC
+            T @1037,252 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 12
+            ▢ FRAME "pseudo-before" @1018,189 3x86 fill=#b45309
+        ▢ FRAME "col" @1252,145 230x792 r=10 fill=#f8f9fa
+            T @1266,161 41x13 fs=13 w=Bold c=#374151 :: Done
+            ▢ FRAME "count-pill" @1445,157 23x22 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            T @1453,160 8x18 fs=11 w=Semi Bold c=#6b7280 :: 6
+          ▢ FRAME "task-card" @1264,189 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @1283,200 194x16 fs=13 w=Semi Bold c=#374151 :: Brand color tokens
+            ▢ FRAME "chip" @1283,227 45x16 r=4 fill=#eef2ff
+            T @1289,228 34x10 fs=10 w=Medium c=#1f3c88 :: Design
+            ▢ FRAME "avatar" @1435,224 22x22 r=50 fill=#1f3c88
+            T @1440,229 12x11 fs=9 w=Bold c=#ffffff :: JC
+            T @1283,252 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 8
+            ▢ FRAME "pseudo-before" @1264,189 3x86 fill=#16a34a
+          ▢ FRAME "task-card" @1264,287 206x88 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @1283,298 194x16 fs=13 w=Semi Bold c=#374151 :: Kickoff deck
+            ▢ FRAME "chip" @1283,325 60x16 r=4 fill=#eef2ff
+            T @1289,327 49x10 fs=10 w=Medium c=#1f3c88 :: Marketing
+            ▢ FRAME "avatar" @1435,322 22x22 r=50 fill=#1f3c88
+            T @1440,327 12x11 fs=9 w=Bold c=#ffffff :: SJ
+            T @1283,350 194x14 fs=12 w=Regular c=#6b7280 :: Due Oct 2
+            ▢ FRAME "pseudo-before" @1264,287 3x86 fill=#16a34a

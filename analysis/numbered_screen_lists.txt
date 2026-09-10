@@ -1,0 +1,69 @@
+# Verbatim screen labels from the .fig file
+
+## Employee / General User (frame-label captions, in order)
+07 · Dashboard Desktop
+08 · Dashboard Android
+09 · Personal Workspace Desktop
+10 · Personal Workspace Android
+15 · Org Chart Desktop
+16 · Org Chart Android
+17 · Projects List Desktop
+18 · Projects List Android
+19 · Project Detail Desktop
+20 · Project Detail Android
+21 · Kanban Board Desktop
+22 · Kanban Board Android
+23 · Task Detail Desktop
+24 · Task Detail Android
+25 · My Tasks Desktop
+26 · My Tasks Android
+27 · Time Tracker Desktop
+28 · Time Tracker Android
+29 · Weekly Timesheet Desktop
+30 · Weekly Timesheet Android
+31 · Manual Time Entry Desktop
+32 · Manual Time Entry Android
+33 · My Requests Desktop
+34 · My Requests Android
+35 · New Leave Request Desktop
+36 · New Leave Request Android
+37 · New Expense Request Desktop
+38 · New Expense Request Android
+39 · Messages Desktop
+40 · Messages Android
+41 · Announcements Desktop
+42 · Announcements Android
+43 · Notifications Desktop
+44 · Notifications Android
+45 · Command Palette Desktop
+46 · Command Palette Android
+47 · Account Settings Desktop
+48 · Account Settings Android
+49 · Request Detail Desktop
+50 · Request Detail Android
+
+## CEO (node names div#NN_*, in order)
+Desktop: div#01_Desktop_Dashboard · 02 Employees_List · 03 Employees_CardGrid ·
+04 Employee_Profile_Overview · 05 Employee_Profile_Documents · 06 Employee_Add_Modal ·
+07 OrgChart · 08 Departments_List · 09 Department_Detail · 10 Department_Add_Modal ·
+11 Projects_List · 12 Project_Detail_Overview · 13 Project_Board_Kanban ·
+14 Task_Detail_Drawer · 15 New_Project_Modal · 16 Time_Tracker_Company ·
+17 Weekly_Timesheet · 18 Approvals_Inbox · 19 Approval_Detail_Modal · 20 My_Requests ·
+21 Communication_Hub · 22 Announcements · 23 Roles_Permissions · 24 User_Management ·
+25 Company_Settings · 26 Backup_Overview · 27 Backup_History ·
+28 Create_Manual_Backup_Modal · 29 Backup_Details_Drawer · 30 Restore_Select_Version ·
+31 Restore_Warning_Confirm · 32 Restore_Progress · 33 Restore_Completed ·
+34 Backup_Recovery_Audit_Log
+
+Android: div#26_Android_Dashboard … div#43_Android_Backup_Recovery_Audit_Log
+(Employees_List, Employee_Filters, Employee_Profile_Overview, Employee_Profile_Documents,
+Employee_Add_Form, OrgChart, Departments_List, Department_Detail, Department_Add_Form,
+Projects_List, Project_Detail_Overview, Project_Board_Kanban, Task_Detail,
+New_Project_Form, Time_Tracker_Company, Weekly_Timesheet, Approvals_Inbox,
+Approval_Detail, My_Requests, Communication_Hub, Announcements, Roles_Permissions,
+User_Management, Company_Settings, Backup_Overview, Backup_History,
+Create_Manual_Backup, Backup_Details, Restore_Select_Version, Restore_Warning_Confirm,
+Restore_Progress, Restore_Completed, Backup_Recovery_Audit_Log)
+
+## HR (node names s01–s25, each with -desktop and -android)
+s01 Dashboard … s25 (see screens_tree / role_dashboards extracts; HR portal shows Sana Khalid / HR Manager)

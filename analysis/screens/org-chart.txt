@@ -1,0 +1,79 @@
+# board 4 (org-chart) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+        ▢ FRAME "nav-item" @12,207 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,219 73x17 fs=14 w=Medium c=#1f3c88 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,378 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,457 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,497 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,576 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 74x17 fs=14 w=Semi Bold c=#374151 :: Org Chart
+      ▢ FRAME "top-search" @346,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @383,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+        T @268,89 113x27 fs=22 w=Bold c=#1f3c88 :: Org Chart
+            T @988,85 100x34 fs=14 w=Regular c=#374151 :: Department
+            T @1132,85 103x34 fs=14 w=Regular c=#374151 :: Find Person
+      ▢ FRAME "card" @268,140 984x722 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        ▢ FRAME "div" @685,181 150x118 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+          ▢ FRAME "avatar" @744,192 32x32 r=50 fill=#1f3c88
+            T @743,202 37x14 fs=12 w=Bold c=#ffffff :: PN
+          T @696,230 136x14 fs=12 w=Bold c=#374151 :: Priya Nair
+          T @696,245 136x14 fs=12 w=Regular c=#6b7280 :: Chief Executive Officer
+          T @696,274 136x14 fs=12 w=Regular c=#6b7280 :: 4 reports
+        ▢ FRAME "div" @759,299 1x28 fill=#e5e7eb
+            ▢ FRAME "div" @495,327 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @554,338 32x32 r=50 fill=#1f3c88
+            T @553,348 37x14 fs=12 w=Bold c=#ffffff :: AR
+            T @506,376 136x14 fs=12 w=Bold c=#374151 :: Alex Rivera
+            T @506,391 136x14 fs=12 w=Regular c=#6b7280 :: VP Marketing & Sales
+            T @506,405 136x14 fs=12 w=Regular c=#6b7280 :: 5 reports
+            ▢ FRAME "div" @569,431 1x28 fill=#e5e7eb
+            ▢ FRAME "div" @410,459 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @469,470 32x32 r=50 fill=#1f3c88
+            T @469,478 35x14 fs=12 w=Bold c=#ffffff :: SJ
+            T @421,508 136x14 fs=12 w=Bold c=#374151 :: Sarah Jenkins
+            T @421,522 136x14 fs=12 w=Regular c=#6b7280 :: Marketing Lead
+            T @421,537 136x14 fs=12 w=Regular c=#6b7280 :: 2 reports
+            ▢ FRAME "div" @580,459 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @639,470 32x32 r=50 fill=#1f3c88
+            T @638,478 36x14 fs=12 w=Bold c=#ffffff :: TB
+            T @591,508 136x14 fs=12 w=Bold c=#374151 :: Tom Baxter
+            T @591,522 136x14 fs=12 w=Regular c=#6b7280 :: Sales Executive
+            ▢ FRAME "div" @875,327 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @934,338 32x32 r=50 fill=#1f3c88
+            T @932,348 40x14 fs=12 w=Bold c=#ffffff :: MC
+            T @886,376 136x14 fs=12 w=Bold c=#374151 :: Mike Chen
+            T @886,391 136x14 fs=12 w=Regular c=#6b7280 :: Engineering Manager
+            T @886,405 136x14 fs=12 w=Regular c=#6b7280 :: 6 reports
+            ▢ FRAME "div" @949,431 1x28 fill=#e5e7eb
+            ▢ FRAME "div" @790,459 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @849,470 32x32 r=50 fill=#1f3c88
+            T @848,479 36x14 fs=12 w=Bold c=#ffffff :: JC
+            T @801,508 136x14 fs=12 w=Bold c=#374151 :: Jordan Cole
+            T @801,522 136x14 fs=12 w=Regular c=#6b7280 :: Product Designer
+            ▢ FRAME "div" @960,459 150x104 r=10 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @1019,470 32x32 r=50 fill=#1f3c88
+            T @1017,478 37x14 fs=12 w=Bold c=#ffffff :: DK
+            T @971,508 136x14 fs=12 w=Bold c=#374151 :: David Kim
+            T @971,522 136x14 fs=12 w=Regular c=#6b7280 :: Backend Engineer
+          ▢ FRAME "div" @485,299 550x1 fill=#e5e7eb

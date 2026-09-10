@@ -1,0 +1,473 @@
+/* ============================================================
+   Reusable primitives
+   ============================================================ */
+
+/* ---- Card -------------------------------------------------- */
+.card {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* ---- Badge ------------------------------------------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 19px;
+  padding: 0 7px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.badge--primary { background: var(--light); color: var(--primary); }
+.badge--danger { background: var(--soft-danger); color: var(--danger); }
+.badge--warning { background: var(--soft-warning); color: var(--warning); }
+.badge--success { background: var(--soft-success); color: var(--success); }
+.badge--violet { background: var(--soft-violet); color: var(--violet); }
+.badge--gray { background: var(--soft-gray); color: var(--muted); }
+
+/* ---- Avatar ------------------------------------------------ */
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-pill);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  user-select: none;
+  flex: none;
+}
+
+.avatar--sm { width: 24px; height: 24px; font-size: 10px; }
+
+/* ---- Progress bar ------------------------------------------ */
+.progress {
+  height: 6px;
+  border-radius: var(--radius-sm);
+  background: var(--line);
+  overflow: hidden;
+}
+
+.progress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--primary);
+}
+
+/* ---- Checkbox (task rows) ---------------------------------- */
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex: none;
+  border-radius: var(--radius-sm);
+  padding: 0;
+  appearance: none;
+  cursor: pointer;
+}
+
+.checkbox--checked { background: var(--primary); border: 1px solid var(--primary); color: #ffffff; }
+.checkbox--unchecked { background: #ffffff; border: 1px solid #cbd5e1; }
+
+.checkbox svg { width: 11px; height: 11px; stroke-width: 3; }
+
+.checkbox:focus-visible { outline: 2px solid var(--mid); outline-offset: 1px; }
+
+/* ---- Link button ------------------------------------------- */
+.link-btn { font-size: 12px; font-weight: 600; color: var(--accent); white-space: nowrap; }
+.link-btn:hover { text-decoration: underline; }
+
+/* ============================================================
+   Buttons (design sheet: 8px radius; h36 md / h30 sm)
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: var(--radius-ctl);
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  transition: filter 0.12s ease, background 0.12s ease;
+}
+
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.btn--md { height: 36px; padding: 0 16px; font-size: 14px; }
+.btn--sm { height: 30px; padding: 0 12px; font-size: 13px; }
+
+.btn svg { width: 16px; height: 16px; stroke-width: 2; }
+
+.btn--primary { background: var(--primary); color: #ffffff; }
+.btn--primary:hover:not(:disabled) { background: #1a3374; }
+
+.btn--soft { background: var(--light); border-color: var(--mid); color: var(--primary); }
+.btn--soft:hover:not(:disabled) { background: #e2e9fb; }
+
+.btn--ghost { background: transparent; color: var(--ink); }
+.btn--ghost:hover:not(:disabled) { background: var(--surface-soft); }
+
+.btn--white { background: #ffffff; color: var(--primary); }
+.btn--white:hover:not(:disabled) { background: #f2f4ff; }
+
+.btn--danger-soft { background: var(--soft-danger); color: var(--danger); }
+.btn--danger-soft:hover:not(:disabled) { background: #f9dada; }
+
+/* Icon button flat (modal close) */
+.icon-btn-flat {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-ctl);
+  color: var(--muted);
+  flex: none;
+}
+.icon-btn-flat svg { width: 18px; height: 18px; stroke-width: 2; }
+.icon-btn-flat:hover { background: var(--surface-soft); color: var(--ink); }
+
+/* ============================================================
+   Toggle
+   ============================================================ */
+.toggle {
+  position: relative;
+  width: 36px;
+  height: 20px;
+  border-radius: var(--radius-pill);
+  flex: none;
+  transition: background 0.15s ease;
+}
+.toggle--on { background: var(--primary); }
+.toggle--off { background: #d1d5db; }
+
+.toggle-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease;
+}
+.toggle--on .toggle-knob { transform: translateX(16px); }
+
+/* ============================================================
+   Select (custom dropdown)
+   ============================================================ */
+.select { position: relative; }
+
+.select-trigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-ctl);
+  background: #ffffff;
+  color: var(--ink);
+  text-align: left;
+  font-size: 14px;
+}
+
+.select--sm .select-trigger { height: 30px; padding: 0 10px; font-size: 13px; }
+.select--md .select-trigger { height: 40px; padding: 0 12px; }
+
+.select-trigger:hover { border-color: #d3d8e0; }
+
+.select-value {
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.select-icon { display: inline-flex; color: var(--muted); }
+.select-icon svg { width: 16px; height: 16px; }
+
+.select-chevron { width: 16px; height: 16px; color: var(--muted); flex: none; }
+
+.select-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 60;
+  min-width: 100%;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.12);
+  padding: 6px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.select-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--ink);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.select-option:hover { background: var(--light); }
+.select-option.selected { color: var(--primary); font-weight: 600; }
+.select-check { width: 15px; height: 15px; margin-left: auto; flex: none; }
+
+/* ============================================================
+   Modal / Drawer / overlays
+   ============================================================ */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.45);
+  padding: 20px;
+}
+
+.modal {
+  width: 100%;
+  background: #ffffff;
+  border-radius: var(--radius-card);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.25);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  padding: 22px 24px 24px;
+}
+
+.modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.modal-head h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+/* right drawer overlays (task/request detail) */
+.drawer-overlay { justify-content: flex-end; padding: 0; }
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  width: min(440px, 100%);
+  height: 100%;
+  background: #ffffff;
+  border-radius: var(--radius-card) 0 0 var(--radius-card);
+  box-shadow: -16px 0 40px rgba(15, 23, 42, 0.18);
+}
+
+.drawer-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px 22px 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.drawer-titles { min-width: 0; }
+
+.drawer-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.drawer-head h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.drawer-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px 22px 22px;
+}
+
+.drawer-footer {
+  padding: 14px 22px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* ============================================================
+   Empty state
+   ============================================================ */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  padding: 48px 24px;
+}
+
+.empty-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--light);
+  color: var(--primary);
+  margin-bottom: 6px;
+}
+
+.empty-icon svg { width: 22px; height: 22px; stroke-width: 2; }
+
+.empty-title { font-size: 14px; font-weight: 600; color: var(--ink); }
+.empty-body { font-size: 12px; color: var(--muted); max-width: 340px; }
+
+/* ============================================================
+   Data tables (Figma: gray header row 32px, zebra rows 48px)
+   ============================================================ */
+.table-scroll { overflow-x: auto; width: 100%; }
+
+.data-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+.data-table thead th {
+  height: 32px;
+  padding: 0 14px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--line);
+}
+
+.data-table tbody td {
+  height: 48px;
+  padding: 0 14px;
+  color: var(--ink);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.data-table tbody td:first-child,
+.data-table thead th:first-child { padding-left: 15px; }
+
+.data-table tbody tr.striped { background: var(--surface-soft); }
+.data-table tbody tr { border-bottom: 1px solid #f1f3f6; }
+.data-table tbody tr:last-child { border-bottom: 0; }
+
+.data-table tbody tr.clickable { cursor: pointer; }
+.data-table tbody tr.clickable:hover { background: #f4f6fd; }
+
+/* ============================================================
+   Toasts
+   ============================================================ */
+.toast-host {
+  position: fixed;
+  right: 20px;
+  top: 76px;
+  z-index: 120;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: min(360px, calc(100vw - 40px));
+}
+
+@media (max-width: 1023px) {
+  .toast-host { top: 64px; left: 50%; transform: translateX(-50%); right: auto; width: min(420px, calc(100vw - 32px)); }
+}
+
+.toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.14);
+  padding: 12px 12px 12px 14px;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.toast > svg { width: 18px; height: 18px; flex: none; margin-top: 1px; }
+.toast--success > svg { color: var(--success); }
+.toast--error > svg { color: var(--danger); }
+.toast span { flex: 1; line-height: 1.4; }
+
+.toast-close {
+  display: inline-flex;
+  color: var(--muted);
+  padding: 2px;
+  flex: none;
+}
+.toast-close svg { width: 16px; height: 16px; }
+.toast-close:hover { color: var(--ink); }
+
+/* ============================================================
+   Form fields (design: label 12/500, input h40 r8)
+   ============================================================ */
+.field { display: flex; flex-direction: column; gap: 7px; }
+
+.field label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.field-input {
+  height: 40px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-ctl);
+  padding: 0 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--ink);
+  background: #ffffff;
+  width: 100%;
+}
+
+.field-input::placeholder { color: #9aa1ad; }
+.field-input:focus { outline: 2px solid var(--mid); outline-offset: -1px; }
+
+textarea.field-input {
+  height: auto;
+  min-height: 80px;
+  padding: 10px 12px;
+  resize: vertical;
+  line-height: 1.45;
+}
+
+.field-hint { font-size: 12px; color: var(--muted); }

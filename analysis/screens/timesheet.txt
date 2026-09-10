@@ -1,0 +1,93 @@
+# board 18 (timesheet) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,219 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+        ▢ FRAME "nav-item" @12,366 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,378 96x17 fs=14 w=Medium c=#1f3c88 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,457 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,497 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,576 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 241x17 fs=12 w=Regular c=#000000 :: Time Tracker  /  Weekly Timesheet
+      ▢ FRAME "top-search" @513,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @550,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+          T @268,84 207x27 fs=22 w=Bold c=#1f3c88 :: Weekly Timesheet
+          T @268,111 207x14 fs=12 w=Regular c=#6b7280 :: Oct 9 – Oct 15, 2026
+            T @1006,88 93x34 fs=14 w=Regular c=#374151 :: Prev Week
+            T @1142,88 93x34 fs=14 w=Regular c=#374151 :: Next Week
+      ▢ FRAME "card" @268,145 984x217 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "th" @269,146 220x32 fill=#f8f9fa stroke=#e5e7eb
+            T @283,154 54x11 fs=11 w=Semi Bold c=#6b7280 :: Project
+            ▢ FRAME "th" @489,146 96x32 fill=#f8f9fa stroke=#e5e7eb
+            T @518,154 39x11 fs=11 w=Semi Bold c=#6b7280 :: Mon 9
+            ▢ FRAME "th" @585,146 96x32 fill=#f8f9fa stroke=#e5e7eb
+            T @613,154 40x11 fs=11 w=Semi Bold c=#6b7280 :: Tue 10
+            ▢ FRAME "th" @681,146 98x32 fill=#f8f9fa stroke=#e5e7eb
+            T @710,154 42x11 fs=11 w=Semi Bold c=#6b7280 :: Wed 11
+            ▢ FRAME "th" @779,146 98x32 fill=#f8f9fa stroke=#e5e7eb
+            T @807,154 41x11 fs=11 w=Semi Bold c=#6b7280 :: Thu 12
+            ▢ FRAME "th" @876,146 88x32 fill=#f8f9fa stroke=#e5e7eb
+            T @904,154 34x11 fs=11 w=Semi Bold c=#6b7280 :: Fri 13
+            ▢ FRAME "th" @964,146 95x32 fill=#f8f9fa stroke=#e5e7eb
+            T @993,154 39x11 fs=11 w=Semi Bold c=#6b7280 :: Sat 14
+            ▢ FRAME "th" @1059,146 98x32 fill=#f8f9fa stroke=#e5e7eb
+            T @1088,154 41x11 fs=11 w=Semi Bold c=#6b7280 :: Sun 15
+            ▢ FRAME "th" @1157,146 94x32 fill=#f8f9fa stroke=#e5e7eb
+            T @1185,154 38x11 fs=11 w=Semi Bold c=#6b7280 :: Total
+            T @283,194 114x16 fs=13 w=Semi Bold c=#374151 :: Website Redesign
+            T @528,194 20x16 fs=13 w=Regular c=#374151 :: 4.5
+            T @623,194 20x16 fs=13 w=Regular c=#374151 :: 3.0
+            T @720,194 19x16 fs=13 w=Regular c=#374151 :: 5.0
+            T @818,194 20x16 fs=13 w=Regular c=#374151 :: 2.2
+            T @911,194 20x16 fs=13 w=Regular c=#374151 :: 4.0
+            T @1005,194 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1102,194 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1191,194 26x16 fs=13 w=Bold c=#374151 :: 18.7
+            ▢ FRAME "tr" @269,226 982x48 fill=#f8f9fa
+            T @283,242 127x16 fs=13 w=Semi Bold c=#374151 :: ERP Implementation
+            T @529,242 17x16 fs=13 w=Regular c=#374151 :: 1.0
+            T @623,242 20x16 fs=13 w=Regular c=#374151 :: 2.0
+            T @723,242 13x16 fs=13 w=Regular c=#374151 :: —
+            T @818,242 20x16 fs=13 w=Regular c=#374151 :: 3.5
+            T @912,242 17x16 fs=13 w=Regular c=#374151 :: 1.0
+            T @1005,242 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1102,242 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1195,242 19x16 fs=13 w=Bold c=#374151 :: 7.5
+            T @283,290 100x16 fs=13 w=Semi Bold c=#374151 :: Internal / Admin
+            T @528,290 20x16 fs=13 w=Regular c=#374151 :: 0.5
+            T @626,290 13x16 fs=13 w=Regular c=#374151 :: —
+            T @721,290 17x16 fs=13 w=Regular c=#374151 :: 1.0
+            T @821,290 13x16 fs=13 w=Regular c=#374151 :: —
+            T @911,290 20x16 fs=13 w=Regular c=#374151 :: 0.8
+            T @1005,290 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1102,290 13x16 fs=13 w=Regular c=#374151 :: —
+            T @1194,290 21x16 fs=13 w=Bold c=#374151 :: 2.3
+            ▢ FRAME "tr" @269,322 982x39 fill=#f8f9fa
+            T @283,332 40x19 fs=16 w=Bold c=#374151 :: Total
+            T @524,332 26x19 fs=16 w=Bold c=#374151 :: 6.0
+            T @620,332 26x19 fs=16 w=Bold c=#374151 :: 5.0
+            T @717,332 26x19 fs=16 w=Bold c=#374151 :: 6.0
+            T @816,332 24x19 fs=16 w=Bold c=#374151 :: 5.7
+            T @908,332 25x19 fs=16 w=Bold c=#374151 :: 5.8
+            T @999,332 26x19 fs=16 w=Bold c=#374151 :: 0.0
+            T @1095,332 26x19 fs=16 w=Bold c=#374151 :: 0.0
+            T @1186,332 36x19 fs=16 w=Bold c=#374151 :: 28.5

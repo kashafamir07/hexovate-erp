@@ -1,0 +1,31 @@
+# board 33 (mobile-notifications) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Notifications
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x724 fill=#ffffff
+      ▢ FRAME "avatar" @32,84 32x32 r=50 fill=#eef2ff
+        T @74,84 275x14 fs=12 w=Semi Bold c=#374151 :: Task assigned to you
+        T @74,98 275x14 fs=12 w=Regular c=#6b7280 :: Sarah assigned "Update FAQ copy"
+        T @74,115 275x14 fs=12 w=Regular c=#6b7280 :: 10 min ago
+      ▢ FRAME "div" @351,89 7x7 r=50 fill=#1f3c88
+      ▢ FRAME "avatar" @32,154 32x32 r=50 fill=#eef2ff
+        T @74,154 275x14 fs=12 w=Semi Bold c=#374151 :: Leave request approved
+        T @74,169 275x14 fs=12 w=Regular c=#6b7280 :: Oct 21–25 vacation approved
+        T @74,185 275x14 fs=12 w=Regular c=#6b7280 :: 1 hour ago
+      ▢ FRAME "div" @351,159 7x7 r=50 fill=#1f3c88
+      ▢ FRAME "avatar" @32,225 32x32 r=50 fill=#eef2ff
+        T @74,225 275x14 fs=12 w=Semi Bold c=#374151 :: New mention
+        T @74,239 275x14 fs=12 w=Regular c=#6b7280 :: Sarah mentioned you in #website-redesign
+        T @74,256 275x14 fs=12 w=Regular c=#6b7280 :: 2 hours ago
+      ▢ FRAME "div" @351,230 7x7 r=50 fill=#1f3c88
+      ▢ FRAME "avatar" @32,295 32x32 r=50 fill=#eef2ff
+        T @74,295 275x14 fs=12 w=Semi Bold c=#374151 :: New announcement
+        T @74,310 275x14 fs=12 w=Regular c=#6b7280 :: Office closed Nov 28
+        T @74,326 275x14 fs=12 w=Regular c=#6b7280 :: 1 day ago
+  ▢ FRAME "div" @0,780 390x64 fill=#ffffff stroke=#e5e7eb sw=1
+      T @25,819 36x10 fs=10 w=Semi Bold c=#1f3c88 :: Home
+      T @103,819 36x10 fs=10 w=Semi Bold c=#6b7280 :: Tasks
+      T @183,819 32x10 fs=10 w=Semi Bold c=#6b7280 :: Time
+      T @250,819 53x10 fs=10 w=Semi Bold c=#6b7280 :: Requests
+      T @338,819 35x10 fs=10 w=Semi Bold c=#6b7280 :: Inbox

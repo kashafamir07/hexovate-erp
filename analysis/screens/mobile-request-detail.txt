@@ -1,0 +1,30 @@
+# board 39 (mobile-request-detail) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Request
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x788 fill=#ffffff
+      ▢ FRAME "badge" @16,72 59x19 r=4 fill=#fef3c7
+        T @24,74 43x11 fs=11 w=Medium c=#b45309 :: Pending
+      T @336,74 46x14 fs=12 w=Regular c=#6b7280 :: 4 days
+    T @16,97 366x19 fs=16 w=Bold c=#374151 :: Vacation — Family trip
+    T @16,120 366x14 fs=12 w=Regular c=#6b7280 :: Oct 21 – Oct 25 · Submitted Oct 5
+    ▢ FRAME "div" @16,152 358x109 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+      T @33,169 332x12 fs=12 w=Medium c=#374151 :: Approver
+      T @33,187 332x14 fs=12 w=Regular c=#374151 :: Alex Rivera
+      T @33,212 332x12 fs=12 w=Medium c=#374151 :: Notes
+      T @33,230 332x14 fs=12 w=Regular c=#374151 :: Family trip, reachable by email for urgent items.
+    T @16,275 366x19 fs=16 w=Bold c=#374151 :: Status
+        ▢ FRAME "div" @16,310 26x26 r=50 fill=#16a34a
+        ▢ FRAME "div" @28,336 2x30 fill=#e5e7eb
+        T @54,310 127x16 fs=13 w=Bold c=#374151 :: Request submitted
+        T @54,326 127x14 fs=12 w=Regular c=#6b7280 :: Oct 5, 9:14 AM
+        ▢ FRAME "div" @16,366 26x26 r=50 fill=#1f3c88
+        ▢ FRAME "div" @28,392 2x30 fill=#e5e7eb
+        T @54,366 168x16 fs=13 w=Bold c=#374151 :: Awaiting manager review
+        T @54,382 168x14 fs=12 w=Regular c=#6b7280 :: Alex Rivera
+        ▢ FRAME "div" @16,422 26x26 r=50 fill=#e5e7eb
+        ▢ FRAME "div" @28,448 2x30 fill=#e5e7eb
+        T @54,422 95x16 fs=13 w=Bold c=#6b7280 :: Final decision
+    ▢ FRAME "btn" @16,478 358x36 r=8 fill=#dc2626
+      T @32,478 326x36 fs=14 w=Regular c=#ffffff :: Withdraw Request

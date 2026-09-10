@@ -1,0 +1,23 @@
+# board 27 (mobile-request-expense) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Submit Expense
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x788 fill=#ffffff
+    T @16,72 366x19 fs=16 w=Bold c=#374151 :: Submit Expense
+      T @16,107 366x12 fs=12 w=Medium c=#374151 :: Category
+      ▢ FRAME "input" @16,125 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,137 154x17 fs=14 w=Regular c=#374151 :: Client Entertainment
+      T @16,181 366x12 fs=12 w=Medium c=#374151 :: Amount
+      ▢ FRAME "input" @16,199 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,200 54x17 fs=14 w=Regular c=#374151 :: $146.00
+      T @16,255 366x12 fs=12 w=Medium c=#374151 :: Date Incurred
+      ▢ FRAME "input" @16,273 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,274 75x17 fs=14 w=Regular c=#374151 :: Oct 3, 2026
+      T @16,329 366x12 fs=12 w=Medium c=#374151 :: Description
+      ▢ FRAME "input" @16,347 358x80 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,358 342x17 fs=14 w=Regular c=#374151 :: Client dinner with TechNova onboarding team
+      T @16,443 366x12 fs=12 w=Medium c=#374151 :: Receipt
+        T @137,512 125x14 fs=12 w=Regular c=#6b7280 :: Tap to attach receipt
+    ▢ FRAME "btn" @16,567 358x36 r=8 fill=#1f3c88
+      T @32,567 326x36 fs=14 w=Regular c=#ffffff :: Submit Expense

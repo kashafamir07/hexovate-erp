@@ -1,0 +1,54 @@
+/* ============================================================
+   Hexovate ERP — Design tokens
+   Source: Figma "Design / Component Library" sheet (canvas.fig)
+   ============================================================ */
+:root {
+  /* Brand palette */
+  --primary: #1f3c88;
+  --primary-dark: #1e3a5f;
+  --accent: #2e86ab;
+  --mid: #c7d2fe;
+  --light: #eef2ff;
+
+  /* Neutrals */
+  --ink: #374151;          /* Text */
+  --muted: #6b7280;
+  --line: #e5e7eb;         /* borders / strokes */
+  --surface-soft: #f8f9fa; /* search field, icon buttons */
+
+  /* Semantic */
+  --success: #16a34a;
+  --warning: #b45309;
+  --danger: #dc2626;
+  --violet: #6d28d9;
+  --soft-success: #eaf3de;
+  --soft-warning: #fef3c7;
+  --soft-danger: #fcebeb;
+  --soft-violet: #ede9fe;
+  --soft-gray: #f3f4f6;
+
+  /* Avatar fills (from Figma dashboard) */
+  --avatar-blue: #2e86ab;
+  --avatar-green: #16a34a;
+  --avatar-violet: #6d28d9;
+  --avatar-gray: #6b7280;
+
+  /* Shape */
+  --radius-card: 12px;
+  --radius-ctl: 8px;
+  --radius-sm: 4px;
+  --radius-pill: 999px;
+
+  /* Chrome geometry (desktop Figma boards are 1280×900) */
+  --sidebar-w: 240px;
+  --topbar-h: 60px;
+  --mobile-topbar-h: 56px;
+  --mobile-tabs-h: 64px;
+
+  /* Type */
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Elevation: standard cards use a very subtle shadow + 1px border */
+  --shadow-card: 0 1px 2px rgba(17, 24, 39, 0.05);
+}

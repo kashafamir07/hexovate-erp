@@ -1,0 +1,54 @@
+# board 30 (announcements) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,219 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,378 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,457 76x17 fs=14 w=Medium c=#374151 :: Messages
+        ▢ FRAME "nav-item" @12,485 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,497 118x17 fs=14 w=Medium c=#1f3c88 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,576 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 119x17 fs=14 w=Semi Bold c=#374151 :: Announcements
+      ▢ FRAME "top-search" @391,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @428,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+      T @268,84 186x27 fs=22 w=Bold c=#1f3c88 :: Announcements
+      ▢ FRAME "card" @268,131 984x126 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @293,152 32x32 r=50 fill=#1e3a5f
+            T @301,161 17x14 fs=12 w=Bold c=#ffffff :: HR
+            T @333,160 80x16 fs=13 w=Bold c=#374151 :: People Ops
+          T @1188,161 47x14 fs=12 w=Regular c=#6b7280 :: Pinned
+        T @293,192 942x19 fs=16 w=Bold c=#374151 :: Office closed Nov 28 — Thanksgiving
+        T @293,217 942x20 fs=12 w=Regular c=#374151 :: The New York and Austin offices will be closed on Thursday, November 28. Remote employees may also take the day off. Standard holiday schedule applies.
+      ▢ FRAME "card" @268,271 984x126 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @293,292 32x32 r=50 fill=#1e3a5f
+            T @301,301 17x14 fs=12 w=Bold c=#ffffff :: HR
+            T @333,300 96x16 fs=13 w=Bold c=#374151 :: Finance Team
+          T @1165,301 70x14 fs=12 w=Regular c=#6b7280 :: 2 days ago
+        T @293,332 942x19 fs=16 w=Bold c=#374151 :: New expense tool rollout
+        T @293,357 942x20 fs=12 w=Regular c=#374151 :: Starting next Monday, all expense submissions move to the new module inside My Requests. The old spreadsheet process will be retired.
+      ▢ FRAME "card" @268,411 984x126 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "avatar" @293,432 32x32 r=50 fill=#1e3a5f
+            T @301,441 17x14 fs=12 w=Bold c=#ffffff :: HR
+            T @333,441 70x16 fs=13 w=Bold c=#374151 :: Priya Nair
+          T @1165,441 70x14 fs=12 w=Regular c=#6b7280 :: 5 days ago
+        T @293,472 942x19 fs=16 w=Bold c=#374151 :: Q4 all-hands — Nov 5, 10:00 AM
+        T @293,497 942x20 fs=12 w=Regular c=#374151 :: Join the full-company update covering roadmap, hiring, and Q4 goals. Calendar invite has been sent to all employees.

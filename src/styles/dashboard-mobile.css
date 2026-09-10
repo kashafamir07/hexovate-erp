@@ -1,0 +1,136 @@
+/* ============================================================
+   Employee Dashboard — mobile (Figma board ~390×844)
+   Metrics transcribed from analysis/dashboard_blueprint.txt
+   ============================================================ */
+.dash-mobile {
+  padding: 16px 16px 110px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* Hero (compact variant) */
+.dash-mobile .welcome-card {
+  padding: 17px 17px 18px;
+}
+
+.dash-mobile .welcome-card .greeting {
+  font-size: 16px;
+}
+
+.dash-mobile .welcome-card .greeting-sub {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/* Section titles */
+.m-section-title {
+  margin: 16px 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.dash-mobile .m-section-title:first-of-type {
+  margin-top: 14px;
+}
+
+/* Task list card */
+.m-task-card .task-list {
+  padding: 12px 17px 13px;
+}
+
+.m-task-card li + li {
+  margin-top: 14px;
+}
+
+.m-task-card .task-title {
+  font-size: 13px;
+}
+
+.m-task-card .task-meta {
+  font-size: 12px;
+}
+
+/* Stats tiles row */
+.m-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.m-stat {
+  display: flex;
+  flex-direction: column;
+  padding: 17px;
+}
+
+.m-stat .stat-value {
+  font-size: 20px;
+}
+
+.m-stat .stat-label {
+  margin-top: 6px;
+}
+
+/* Active projects (single compact card) */
+.m-projects .project-list {
+  padding: 12px 17px 14px;
+}
+
+.m-projects .project-name {
+  font-size: 12px;
+}
+
+/* Floating quick-create sheet */
+.fab-sheet {
+  position: absolute;
+  right: 16px;
+  bottom: 84px;
+  z-index: 7;
+  width: 196px;
+  padding: 6px;
+}
+
+.fab-sheet-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: var(--radius-ctl);
+  font-size: 13px;
+  color: var(--ink);
+  text-align: left;
+}
+
+.fab-sheet-item:hover { background: var(--light); }
+.fab-sheet-item svg { width: 16px; height: 16px; color: var(--muted); }
+
+/* Floating action button */
+.fab {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-pill);
+  background: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(31, 60, 136, 0.35);
+}
+
+.fab svg {
+  width: 24px;
+  height: 24px;
+  stroke-width: 2;
+}
+
+.fab:hover {
+  background: var(--primary-dark);
+}

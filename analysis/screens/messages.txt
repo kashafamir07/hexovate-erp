@@ -1,0 +1,89 @@
+# board 28 (messages) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,219 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,378 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+        ▢ FRAME "nav-item" @12,445 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,457 76x17 fs=14 w=Medium c=#1f3c88 :: Messages
+          T @54,497 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,576 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 77x17 fs=14 w=Semi Bold c=#374151 :: Messages
+      ▢ FRAME "top-search" @349,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @386,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+          ▢ FRAME "top-search" @264,80 231x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+            T @300,90 117x16 fs=13 w=Regular c=#6b7280 :: Search messages
+            T @264,138 253x11 fs=11 w=Semi Bold c=#6b7280 :: CHANNELS
+            ▢ FRAME "avatar" @264,167 32x32 r=50 fill=#1f3c88
+            T @276,176 8x14 fs=12 w=Bold c=#ffffff :: #
+            T @306,168 164x16 fs=13 w=Bold c=#374151 :: # design-team
+            T @306,184 166x14 fs=12 w=Regular c=#6b7280 :: Jordan: pushed new tokens
+            ▢ FRAME "badge" @472,173 23x19 r=10 fill=#eef2ff
+            T @480,175 7x11 fs=11 w=Medium c=#1f3c88 :: 2
+          ▢ FRAME "div" @252,209 255x52 r=8 fill=#eef2ff
+            ▢ FRAME "avatar" @264,219 32x32 r=50 fill=#1f3c88
+            T @276,228 8x14 fs=12 w=Bold c=#ffffff :: #
+            T @306,220 166x16 fs=13 w=Bold c=#374151 :: # website-redesign
+            T @306,236 168x28 fs=12 w=Regular c=#6b7280 :: Sarah: can we add annual toggle?
+            ▢ FRAME "badge" @474,225 21x19 r=10 fill=#eef2ff
+            T @482,227 6x11 fs=11 w=Medium c=#1f3c88 :: 1
+            ▢ FRAME "avatar" @264,271 32x32 r=50 fill=#1f3c88
+            T @276,280 8x14 fs=12 w=Bold c=#ffffff :: #
+            T @306,272 197x16 fs=13 w=Semi Bold c=#374151 :: # announcements
+            T @306,288 199x14 fs=12 w=Regular c=#6b7280 :: Pinned: Office closed Nov 28
+            T @264,329 253x11 fs=11 w=Semi Bold c=#6b7280 :: DIRECT MESSAGES
+            ▢ FRAME "avatar" @264,358 32x32 r=50 fill=#1f3c88
+            T @272,367 17x14 fs=12 w=Bold c=#ffffff :: SA
+            T @306,359 166x16 fs=13 w=Bold c=#374151 :: Sarah Jenkins
+            T @306,374 168x14 fs=12 w=Regular c=#6b7280 :: Sounds good, thanks!
+            ▢ FRAME "badge" @474,364 21x19 r=10 fill=#eef2ff
+            T @482,366 6x11 fs=11 w=Medium c=#1f3c88 :: 1
+            ▢ FRAME "avatar" @264,410 32x32 r=50 fill=#1f3c88
+            T @273,419 15x14 fs=12 w=Bold c=#ffffff :: MI
+            T @306,411 197x16 fs=13 w=Semi Bold c=#374151 :: Mike Chen
+            T @306,426 199x14 fs=12 w=Regular c=#6b7280 :: Approved your leave request
+            ▢ FRAME "avatar" @264,462 32x32 r=50 fill=#1f3c88
+            T @272,471 16x14 fs=12 w=Bold c=#ffffff :: AL
+            T @306,463 197x16 fs=13 w=Semi Bold c=#374151 :: Alex Rivera
+            T @306,478 199x14 fs=12 w=Regular c=#6b7280 :: Let's sync tomorrow
+          ▢ FRAME "div.row-between" @254,504 259x42 fill=#ffffff
+            ▢ FRAME "div.avatar" @264,509 32x32 r=50 fill=#1f3c88
+            T @272,518 17x15 fs=12 w=Bold c=#ffffff :: CE
+            T @306,517 28x16 fs=13 w=Semi Bold c=#374151 :: CEO
+            T @544,74 138x17 fs=14 w=Bold c=#374151 :: #website-redesign
+            T @544,91 138x14 fs=12 w=Regular c=#6b7280 :: 12 members
+            ▢ FRAME "avatar" @544,140 32x32 r=50 fill=#2e86ab
+            T @553,149 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            T @586,140 325x14 fs=12 w=Regular c=#000000 :: Sarah Jenkins 10:14 AM
+            T @586,156 325x14 fs=12 w=Regular c=#374151 :: Can we add an annual billing toggle to the pricing page?
+            ▢ FRAME "avatar" @544,190 32x32 r=50 fill=#1f3c88
+            T @552,199 16x14 fs=12 w=Bold c=#ffffff :: JC
+            T @586,190 227x14 fs=12 w=Regular c=#000000 :: Jordan Cole 10:22 AM
+            T @586,206 227x14 fs=12 w=Regular c=#374151 :: Yep, adding it to the wireframe now 👍
+            ▢ FRAME "avatar" @544,241 32x32 r=50 fill=#2e86ab
+            T @553,250 15x14 fs=12 w=Bold c=#ffffff :: SJ
+            T @586,241 147x14 fs=12 w=Regular c=#000000 :: Sarah Jenkins 10:23 AM
+            T @586,258 147x14 fs=12 w=Regular c=#374151 :: Perfect, thank you!
+            ▢ FRAME "input" @544,798 624x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @557,799 189x17 fs=14 w=Regular c=#6b7280 :: Message #website-redesign
+            ▢ FRAME "icon-btn" @1178,801 34x34 r=8 fill=#f8f9fa
+            ▢ FRAME "icon-btn" @1222,801 34x34 r=8 fill=#1f3c88

@@ -1,0 +1,803 @@
+
+#### #0 1280x900 abs 1074,9542 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Dashboard
+  391,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  294,126 [18/Bold] Good morning, Jordan
+  1090,132 [14/Bold] Monday, October 12
+  1090,146 [12/Regular] 68°F · New York
+  294,150 [13/Regular] Here's what you need to do today.
+  293,225 [16/Bold] Today's Tasks
+  839,227 [12/Semi Bold] View All
+  321,270 [13/Semi Bold] Review Q3 Marketing Deck
+  853,277 [11/Medium] High
+  321,285 [12/Regular] 10:00 AM
+  321,325 [13/Semi Bold] Client Onboarding: TechNova
+  854,332 [11/Medium] Med
+  321,340 [12/Regular] 1:00 PM
+
+#### #1 390x844 abs 2524,9542 name="artboard"
+  366,10 [9/Bold] 3
+  16,20 [15/Bold] HEXOVATE
+  33,89 [16/Bold] Good morning, Jordan
+  33,109 [12/Regular] Mon, Oct 12 · 68°F
+  16,155 [16/Bold] Today's Tasks
+  61,213 [13/Semi Bold] Review Q3 Marketing Deck
+  325,220 [11/Medium] High
+  61,228 [12/Regular] 10:00 AM
+  61,268 [13/Semi Bold] Client Onboarding: TechNova
+  326,275 [11/Medium] Med
+  61,283 [12/Regular] 1:00 PM
+  33,358 [20/Bold] 24
+  218,358 [20/Bold] 14d
+  33,382 [12/Regular] Completed
+  218,382 [12/Regular] Leave Balance
+  16,427 [16/Bold] Active Projects
+  33,473 [12/Bold] Website Redesign
+  331,473 [12/Regular] 75%
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #2 1280x900 abs 1074,10596 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Personal Workspace
+  457,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  391,114 [18/Bold] Jordan Cole
+  1114,128 [14/Regular] Edit Profile
+  316,129 [26/Bold] JC
+  391,136 [12/Regular] Product Designer · Design Department
+  399,159 [11/Medium] Active
+  284,236 [13/Semi Bold] Overview
+  380,236 [13/Semi Bold] Documents
+  488,236 [13/Semi Bold] Time Logs
+  589,236 [13/Semi Bold] Leave History
+  711,236 [13/Semi Bold] Settings
+  293,406 [16/Bold] Contact Information
+  293,451 [12/Regular] Work Email
+
+#### #3 390x844 abs 2524,10596 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Personal Workspace
+  162,96 [26/Bold] JC
+  16,162 [17/Bold] Jordan Cole
+  16,179 [12/Regular] Product Designer
+  28,215 [12/Semi Bold] Overview
+  111,215 [12/Semi Bold] Documents
+  205,215 [12/Semi Bold] Time Logs
+  294,215 [12/Semi Bold] Leave
+  33,271 [16/Bold] Contact
+  33,312 [12/Regular] Email
+  135,312 [12/Regular] jordan.cole@hexovate.com
+  33,351 [12/Regular] Phone
+  135,351 [12/Regular] +1 415 555 0148
+  33,426 [16/Bold] Employment
+  33,467 [12/Regular] Manager
+  135,467 [12/Regular] Alex Rivera
+  33,506 [12/Regular] Started
+  135,506 [12/Regular] Mar 4, 2023
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #4 1280x900 abs 1074,13758 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Org Chart
+  383,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  988,85 [14/Regular] Department
+  1132,85 [14/Regular] Find Person
+  268,89 [22/Bold] Org Chart
+  743,202 [12/Bold] PN
+  696,230 [12/Bold] Priya Nair
+  696,245 [12/Regular] Chief Executive Officer
+  696,274 [12/Regular] 4 reports
+  553,348 [12/Bold] AR
+  506,376 [12/Bold] Alex Rivera
+  506,391 [12/Regular] VP Marketing & Sales
+  506,405 [12/Regular] 5 reports
+  469,478 [12/Bold] SJ
+
+#### #5 390x844 abs 2524,13758 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Org Chart
+  53,84 [13/Regular] Find a person
+  178,146 [12/Bold] PN
+  131,175 [12/Bold] Priya Nair
+  131,190 [12/Regular] Chief Executive Officer
+  131,218 [12/Regular] 4 reports
+  155,254 [10/Regular] reports to CEO ↓
+  177,296 [12/Bold] AR
+  131,325 [12/Bold] Alex Rivera
+  131,340 [12/Regular] VP Marketing & Sales
+  131,354 [12/Regular] 5 reports
+  179,410 [12/Bold] SJ
+  131,439 [12/Bold] Sarah Jenkins
+  131,453 [12/Regular] Marketing Lead
+  131,468 [12/Regular] 2 reports
+  179,523 [12/Bold] TB
+  131,552 [12/Bold] Tom Baxter
+  131,567 [12/Regular] Sales Executive
+  16,617 [12/Regular] Pinch to zoom · tap a node for details
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #6 1280x900 abs 1074,14812 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Projects
+  373,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1134,84 [14/Regular] New Project
+  268,89 [22/Bold] Projects
+  281,141 [13/Regular] All
+  334,141 [13/Regular] My Projects
+  443,141 [13/Regular] Status
+  539,141 [13/Regular] Date Range
+  293,209 [16/Bold] Website Redesign
+  518,211 [11/Medium] Active
+  293,234 [12/Regular] Full marketing site rebuild with new brand system
+  302,286 [12/Bold] SJ
+  323,286 [12/Bold] MC
+  349,286 [12/Bold] +3
+
+#### #7 390x844 abs 2524,14812 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Projects
+  28,78 [12/Semi Bold] All
+  71,78 [12/Semi Bold] My Projects
+  168,78 [12/Semi Bold] Completed
+  33,133 [16/Bold] Website Redesign
+  316,135 [11/Medium] Active
+  33,170 [12/Regular] 75% · Due Oct 24
+  33,233 [16/Bold] ERP Implementation
+  316,235 [11/Medium] Active
+  33,270 [12/Regular] 30% · Due Nov 30
+  33,333 [16/Bold] Q4 Campaign
+  316,334 [11/Medium] Active
+  33,369 [12/Regular] 62% · Due Nov 8
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #8 1280x900 abs 1074,15866 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [12/Regular] Projects  /  Website Redesign
+  513,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  268,84 [22/Bold] Website Redesign
+  596,90 [11/Medium] Active
+  1181,99 [12/Bold] SJ
+  1202,99 [12/Bold] MC
+  1228,99 [12/Bold] +3
+  268,115 [12/Regular] Full marketing site rebuild with new brand system · Oct 1 – 
+  284,159 [13/Semi Bold] Overview
+  380,159 [13/Semi Bold] Board
+  453,159 [13/Semi Bold] Sprints
+  534,159 [13/Semi Bold] Gantt
+  604,159 [13/Semi Bold] Files
+  669,159 [13/Semi Bold] Wiki
+
+#### #9 390x844 abs 2524,15866 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Website Redesign
+  16,72 [16/Bold] Website Redesign
+  333,74 [11/Medium] Active
+  16,95 [12/Regular] Oct 1 – Oct 24
+  28,129 [12/Semi Bold] Overview
+  111,129 [12/Semi Bold] Board
+  173,129 [12/Semi Bold] Files
+  228,129 [12/Semi Bold] Wiki
+  33,185 [20/Bold] 48
+  218,185 [20/Bold] 4
+  33,209 [12/Regular] Tasks
+  218,209 [12/Regular] Overdue
+  33,271 [16/Bold] Budget
+  33,314 [12/Regular] $34,000 of $50,000
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #10 1280x900 abs 1074,16920 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [12/Regular] Projects  /  Website Redesign  /  Board
+  572,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  268,84 [22/Bold] Website Redesign
+  1152,87 [14/Regular] Add Task
+  268,111 [12/Regular] Board
+  469,160 [11/Semi Bold] 5
+  282,161 [13/Bold] Backlog
+  299,200 [13/Semi Bold] Competitor audit
+  305,228 [10/Medium] Research
+  456,229 [9/Bold] AR
+  299,252 [12/Regular] Due Oct 18
+  299,298 [13/Semi Bold] SEO keyword list
+  305,327 [10/Medium] Marketing
+  456,327 [9/Bold] TB
+
+#### #11 390x844 abs 2524,16920 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Board
+  28,78 [12/Semi Bold] Overview
+  111,78 [12/Semi Bold] Board
+  173,78 [12/Semi Bold] Files
+  217,131 [11/Semi Bold] 4
+  461,131 [11/Semi Bold] 3
+  30,133 [13/Bold] To Do
+  274,133 [13/Bold] In Progress
+  47,171 [13/Semi Bold] Design pricing page
+  291,171 [13/Semi Bold] Build nav component
+  53,199 [10/Medium] Design
+  297,199 [10/Medium] Frontend
+  204,200 [9/Bold] JC
+  447,200 [9/Bold] DK
+  47,223 [12/Regular] Due Oct 15
+  291,223 [12/Regular] Due Oct 13
+  47,269 [13/Semi Bold] Write homepage copy
+  53,298 [10/Medium] Content
+  204,298 [9/Bold] SJ
+  47,321 [12/Regular] Due Oct 14
+  16,368 [12/Regular] Swipe to see more columns →
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #12 1280x900 abs 1074,17974 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [12/Regular] Projects  /  Website Redesign  /  Task
+  564,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  268,84 [22/Bold] Website Redesign
+  1152,87 [14/Regular] Add Task
+  268,111 [12/Regular] Board
+  469,160 [11/Semi Bold] 5
+  282,161 [13/Bold] Backlog
+  299,200 [13/Semi Bold] Competitor audit
+  305,228 [10/Medium] Research
+  456,229 [9/Bold] AR
+  299,252 [12/Regular] Due Oct 18
+  299,298 [13/Semi Bold] SEO keyword list
+  305,327 [10/Medium] Marketing
+  456,327 [9/Bold] TB
+
+#### #13 390x844 abs 2524,17974 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Task
+  16,72 [12/Regular] Website Redesign / To Do
+  16,90 [16/Bold] Design pricing page
+  16,123 [12/Medium] Status
+  201,123 [12/Medium] Priority
+  24,143 [11/Medium] In Progress
+  209,143 [11/Medium] Medium
+  16,172 [12/Medium] Assignee
+  201,172 [12/Medium] Due
+  201,190 [12/Regular] Oct 15
+  24,199 [12/Bold] JC
+  54,199 [12/Regular] Jordan
+  16,238 [12/Medium] Description
+  16,256 [12/Regular] Design the pricing page with 3 tiers, comparison table, and 
+  16,309 [12/Medium] Activity
+  25,347 [12/Bold] SJ
+  60,347 [12/Regular] Sarah commented 2h ago
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #14 1280x900 abs 1074,19028 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] My Tasks
+  381,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1150,84 [14/Regular] New Task
+  268,89 [22/Bold] My Tasks
+  281,141 [13/Regular] All (12)
+  361,141 [13/Regular] Due Today (2)
+  482,141 [13/Regular] Overdue (1)
+  590,141 [13/Regular] Project
+  348,195 [11/Semi Bold] Task
+  660,195 [11/Semi Bold] Project
+  882,195 [11/Semi Bold] Priority
+  1010,195 [11/Semi Bold] Due
+  1112,195 [11/Semi Bold] Status
+  348,235 [13/Semi Bold] Design pricing page
+
+#### #15 390x844 abs 2524,19028 name="artboard"
+  366,10 [9/Bold] 3
+  16,20 [15/Bold] HEXOVATE
+  28,78 [12/Semi Bold] All
+  71,78 [12/Semi Bold] Due Today
+  161,78 [12/Semi Bold] Overdue
+  33,135 [13/Bold] Design pricing page
+  306,135 [11/Medium] Medium
+  33,158 [12/Regular] Website Redesign · Due Oct 15
+  41,182 [11/Medium] In Progress
+  33,250 [13/Bold] Write homepage copy review
+  325,250 [11/Medium] High
+  33,273 [12/Regular] Website Redesign · Due Oct 14
+  41,297 [11/Medium] In Review
+  33,364 [13/Bold] Set up SSO config
+  325,364 [11/Medium] High
+  33,387 [12/Regular] ERP Implementation · Due Oct 18
+  41,412 [11/Medium] To Do
+  33,479 [13/Bold] QA mobile breakpoints
+  327,479 [11/Medium] Low
+  33,502 [12/Regular] Website Redesign · Due Oct 20
+  41,526 [11/Medium] To Do
+  33,593 [13/Bold] Approve vendor mockups
+  306,593 [11/Medium] Medium
+  33,617 [12/Regular] Vendor Portal · Due Oct 9
+  41,641 [11/Medium] Done
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #16 1280x900 abs 1074,20082 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Time Tracker
+  406,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1136,85 [14/Regular] Export CSV
+  268,89 [22/Bold] Time Tracker
+  292,160 [12/Regular] Currently tracking
+  1181,176 [14/Regular] Stop
+  1075,177 [14/Regular] Pause
+  292,178 [15/Bold] Design pricing page — Website Redesign
+  292,197 [30/Bold] 02:15:41
+  1138,267 [13/Regular] Manual Entry
+  281,269 [13/Regular] This Week
+  381,269 [13/Regular] Project
+  482,269 [13/Regular] Billable Only
+  283,322 [11/Semi Bold] Date
+
+#### #17 390x844 abs 2524,20082 name="artboard"
+  366,10 [9/Bold] 3
+  16,20 [15/Bold] HEXOVATE
+  16,92 [12/Regular] Design pricing page
+  16,112 [40/Bold] 02:15:41
+  223,170 [14/Regular] Stop
+  137,172 [14/Regular] Pause
+  16,249 [16/Bold] Today's Logs
+  33,295 [13/Bold] Design pricing page
+  317,296 [12/Regular] 2h 15m
+  33,317 [12/Regular] Website Redesign
+  33,380 [13/Bold] Standup + planning
+  313,380 [12/Regular] 0h 30m
+  33,401 [12/Regular] ERP Implementation
+  33,464 [13/Bold] Homepage QA pass
+  316,464 [12/Regular] 1h 40m
+  33,485 [12/Regular] Website Redesign
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #18 1280x900 abs 1074,21136 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [12/Regular] Time Tracker  /  Weekly Timesheet
+  550,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  268,84 [22/Bold] Weekly Timesheet
+  1006,88 [14/Regular] Prev Week
+  1142,88 [14/Regular] Next Week
+  268,111 [12/Regular] Oct 9 – Oct 15, 2026
+  283,154 [11/Semi Bold] Project
+  518,154 [11/Semi Bold] Mon 9
+  613,154 [11/Semi Bold] Tue 10
+  710,154 [11/Semi Bold] Wed 11
+  807,154 [11/Semi Bold] Thu 12
+  904,154 [11/Semi Bold] Fri 13
+  993,154 [11/Semi Bold] Sat 14
+  1088,154 [11/Semi Bold] Sun 15
+
+#### #19 390x844 abs 2524,21136 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Timesheet
+  16,81 [12/Regular] Oct 9 – Oct 15
+  33,135 [16/Bold] Monday, Oct 9
+  290,137 [12/Regular] 6.0h logged
+  33,162 [12/Regular] Website Redesign · 4.5h · ERP · 1.0h
+  33,225 [16/Bold] Tuesday, Oct 10
+  290,227 [12/Regular] 5.0h logged
+  33,251 [12/Regular] Website Redesign · 3.0h · ERP · 2.0h
+  33,314 [16/Bold] Wednesday, Oct 11
+  290,316 [12/Regular] 6.0h logged
+  33,341 [12/Regular] Website Redesign · 5.0h · ERP · 0.0h
+  33,404 [16/Bold] Thursday, Oct 12
+  290,406 [12/Regular] 5.7h logged
+  33,430 [12/Regular] Website Redesign · 2.2h · ERP · 3.5h
+  163,496 [16/Bold] 28.5 hrs
+  40,515 [12/Regular] logged this week
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #20 1280x900 abs 1074,22190 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Time Tracker
+  406,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1136,85 [14/Regular] Export CSV
+  268,89 [22/Bold] Time Tracker
+  292,160 [12/Regular] Currently tracking
+  1181,176 [14/Regular] Stop
+  1075,177 [14/Regular] Pause
+  292,178 [15/Bold] Design pricing page — Website Redesign
+  292,197 [30/Bold] 02:15:41
+  1138,267 [13/Regular] Manual Entry
+  281,269 [13/Regular] This Week
+  381,269 [13/Regular] Project
+  482,269 [13/Regular] Billable Only
+  283,322 [11/Semi Bold] Date
+
+#### #21 390x844 abs 2524,22190 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Log Time
+  16,72 [16/Bold] Log Time Manually
+  16,107 [12/Medium] Project
+  29,137 [14/Regular] Website Redesign
+  16,181 [12/Medium] Task
+  29,210 [14/Regular] Design pricing page
+  16,255 [12/Medium] Date
+  29,274 [14/Regular] Oct 12, 2026
+  16,329 [12/Medium] Duration
+  29,348 [14/Regular] 1h 45m
+  16,403 [12/Medium] Notes
+  29,432 [14/Regular] What did you work on?
+  40,517 [13/Regular] Billable
+  32,553 [14/Regular] Save Entry
+
+#### #22 1280x900 abs 1074,23244 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] My Requests
+  405,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1126,84 [14/Regular] New Request
+  268,89 [22/Bold] My Requests
+  284,150 [13/Semi Bold] All (4)
+  358,150 [13/Semi Bold] Leave (2)
+  452,150 [13/Semi Bold] Expenses (1)
+  568,150 [13/Semi Bold] Purchase Orders (1)
+  283,205 [11/Semi Bold] Type
+  441,205 [11/Semi Bold] Description
+  681,205 [11/Semi Bold] Dates
+  833,205 [11/Semi Bold] Submitted
+  953,205 [11/Semi Bold] Approver
+  1074,205 [11/Semi Bold] Status
+
+#### #23 390x844 abs 2524,23244 name="artboard"
+  366,10 [9/Bold] 3
+  16,20 [15/Bold] HEXOVATE
+  28,78 [12/Semi Bold] All
+  71,78 [12/Semi Bold] Leave
+  134,78 [12/Semi Bold] Expenses
+  218,78 [12/Semi Bold] POs
+  41,135 [11/Medium] Leave
+  306,135 [11/Medium] Pending
+  33,158 [13/Bold] Vacation — Family trip
+  33,178 [12/Regular] Oct 21 – Oct 25
+  41,242 [11/Medium] Expense
+  298,242 [11/Medium] Approved
+  33,265 [13/Bold] Client dinner — TechNova
+  33,285 [12/Regular] Oct 3
+  41,349 [11/Medium] Leave
+  298,349 [11/Medium] Approved
+  33,373 [13/Bold] Sick day
+  33,392 [12/Regular] Sep 28
+  41,457 [11/Medium] Purchase Order
+  303,457 [11/Medium] Rejected
+  33,480 [13/Bold] Figma seat renewal
+  33,499 [12/Regular] —
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #24 1280x900 abs 1074,24298 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] My Requests
+  405,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1126,84 [14/Regular] New Request
+  268,89 [22/Bold] My Requests
+  284,150 [13/Semi Bold] All (4)
+  358,150 [13/Semi Bold] Leave (2)
+  452,150 [13/Semi Bold] Expenses (1)
+  568,150 [13/Semi Bold] Purchase Orders (1)
+  283,205 [11/Semi Bold] Type
+  441,205 [11/Semi Bold] Description
+  681,205 [11/Semi Bold] Dates
+  833,205 [11/Semi Bold] Submitted
+  953,205 [11/Semi Bold] Approver
+  1074,205 [11/Semi Bold] Status
+
+#### #25 390x844 abs 2524,24298 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Request Leave
+  16,72 [16/Bold] Request Leave
+  16,107 [12/Medium] Leave Type
+  29,137 [14/Regular] Vacation
+  16,181 [12/Medium] Start Date
+  29,200 [14/Regular] Oct 21, 2026
+  16,255 [12/Medium] End Date
+  29,274 [14/Regular] Oct 25, 2026
+  16,321 [12/Regular] 4 working days · 10 days remaining after this request
+  16,351 [12/Medium] Notes
+  29,380 [14/Regular] Add context for your manager (optional)
+  32,465 [14/Regular] Submit Request
+
+#### #26 1280x900 abs 1074,25352 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] My Requests
+  405,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1126,84 [14/Regular] New Request
+  268,89 [22/Bold] My Requests
+  284,150 [13/Semi Bold] All (4)
+  358,150 [13/Semi Bold] Leave (2)
+  452,150 [13/Semi Bold] Expenses (1)
+  568,150 [13/Semi Bold] Purchase Orders (1)
+  283,205 [11/Semi Bold] Type
+  441,205 [11/Semi Bold] Description
+  681,205 [11/Semi Bold] Dates
+  833,205 [11/Semi Bold] Submitted
+  953,205 [11/Semi Bold] Approver
+  1074,205 [11/Semi Bold] Status
+
+#### #27 390x844 abs 2524,25352 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Submit Expense
+  16,72 [16/Bold] Submit Expense
+  16,107 [12/Medium] Category
+  29,137 [14/Regular] Client Entertainment
+  16,181 [12/Medium] Amount
+  29,200 [14/Regular] $146.00
+  16,255 [12/Medium] Date Incurred
+  29,274 [14/Regular] Oct 3, 2026
+  16,329 [12/Medium] Description
+  29,358 [14/Regular] Client dinner with TechNova onboarding team
+  16,443 [12/Medium] Receipt
+  137,512 [12/Regular] Tap to attach receipt
+  32,567 [14/Regular] Submit Expense
+
+#### #28 1280x900 abs 1074,26406 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Messages
+  386,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  300,90 [13/Regular] Search messages
+  264,138 [11/Semi Bold] CHANNELS
+  306,168 [13/Bold] # design-team
+  480,175 [11/Medium] 2
+  276,176 [12/Bold] #
+  306,184 [12/Regular] Jordan: pushed new tokens
+  306,220 [13/Bold] # website-redesign
+  482,227 [11/Medium] 1
+  276,228 [12/Bold] #
+  306,236 [12/Regular] Sarah: can we add annual toggle?
+  306,272 [13/Semi Bold] # announcements
+  276,280 [12/Bold] #
+
+#### #29 390x844 abs 2524,26406 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] website-redesign
+  58,72 [14/Bold] #website-redesign
+  22,81 [12/Bold] WR
+  58,89 [12/Regular] 12 members
+  58,118 [12/Regular] Sarah 10:14 AM
+  25,127 [12/Bold] SJ
+  58,134 [12/Regular] Can we add an annual billing toggle?
+  58,166 [12/Regular] Jordan 10:22 AM
+  24,175 [12/Bold] JC
+  58,182 [12/Regular] Yep, adding it to the wireframe now 👍
+  25,733 [14/Regular] Message...
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #30 1280x900 abs 1074,27460 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Announcements
+  428,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  268,84 [22/Bold] Announcements
+  333,160 [13/Bold] People Ops
+  301,161 [12/Bold] HR
+  1188,161 [12/Regular] Pinned
+  293,192 [16/Bold] Office closed Nov 28 — Thanksgiving
+  293,217 [12/Regular] The New York and Austin offices will be closed on Thursday, 
+  333,300 [13/Bold] Finance Team
+  301,301 [12/Bold] HR
+  1165,301 [12/Regular] 2 days ago
+  293,332 [16/Bold] New expense tool rollout
+  293,357 [12/Regular] Starting next Monday, all expense submissions move to the ne
+  301,441 [12/Bold] HR
+
+#### #31 390x844 abs 2524,27460 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Announcements
+  81,101 [13/Bold] People Ops
+  49,102 [12/Bold] HR
+  310,102 [12/Regular] Pinned
+  41,133 [16/Bold] Office closed Nov 28
+  41,158 [12/Regular] Thanksgiving closure for NY & Austin offices. Remote staff m
+  49,261 [12/Bold] HR
+  81,261 [13/Bold] Finance
+  310,261 [12/Regular] 2d ago
+  41,293 [16/Bold] New expense tool rollout
+  41,317 [12/Regular] Expense submissions move to My Requests starting Monday.
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #32 1280x900 abs 1074,28514 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Dashboard
+  391,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  294,126 [18/Bold] Good morning, Jordan
+  1090,132 [14/Bold] Monday, October 12
+  1090,146 [12/Regular] 68°F · New York
+  294,150 [13/Regular] Here's what you need to do today.
+  293,225 [16/Bold] Today's Tasks
+  839,227 [12/Semi Bold] View All
+  321,270 [13/Semi Bold] Review Q3 Marketing Deck
+  853,277 [11/Medium] High
+  321,285 [12/Regular] 10:00 AM
+  321,325 [13/Semi Bold] Client Onboarding: TechNova
+  854,332 [11/Medium] Med
+  321,340 [12/Regular] 1:00 PM
+
+#### #33 390x844 abs 2524,28514 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Notifications
+  74,84 [12/Semi Bold] Task assigned to you
+  74,98 [12/Regular] Sarah assigned "Update FAQ copy"
+  74,115 [12/Regular] 10 min ago
+  74,154 [12/Semi Bold] Leave request approved
+  74,169 [12/Regular] Oct 21–25 vacation approved
+  74,185 [12/Regular] 1 hour ago
+  74,225 [12/Semi Bold] New mention
+  74,239 [12/Regular] Sarah mentioned you in #website-redesign
+  74,256 [12/Regular] 2 hours ago
+  74,295 [12/Semi Bold] New announcement
+  74,310 [12/Regular] Office closed Nov 28
+  74,326 [12/Regular] 1 day ago
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #34 1280x900 abs 1074,29568 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] Dashboard
+  391,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  294,126 [18/Bold] Good morning, Jordan
+  1090,132 [14/Bold] Monday, October 12
+  1090,146 [12/Regular] 68°F · New York
+  294,150 [13/Regular] Here's what you need to do today.
+  293,225 [16/Bold] Today's Tasks
+  839,227 [12/Semi Bold] View All
+  321,270 [13/Semi Bold] Review Q3 Marketing Deck
+  853,277 [11/Medium] High
+  321,285 [12/Regular] 10:00 AM
+  321,325 [13/Semi Bold] Client Onboarding: TechNova
+  854,332 [11/Medium] Med
+  321,340 [12/Regular] 1:00 PM
+
+#### #35 390x844 abs 2524,29568 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Search
+  53,84 [13/Regular] design pricing
+  26,134 [11/Semi Bold] GO TO
+  60,163 [13/Regular] Website Redesign — Project
+  60,199 [13/Regular] My Tasks
+  26,239 [11/Semi Bold] TASKS
+  60,268 [13/Regular] Design pricing page
+  26,308 [11/Semi Bold] ACTIONS
+  60,337 [13/Regular] Create new task
+  60,373 [13/Regular] Start timer on this task
+
+#### #36 1280x900 abs 1074,30622 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [12/Regular] Personal Workspace  /  Settings
+  531,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  391,127 [18/Bold] Jordan Cole
+  316,129 [26/Bold] JC
+  391,149 [12/Regular] Product Designer · Design Department
+  284,236 [13/Semi Bold] Overview
+  380,236 [13/Semi Bold] Documents
+  488,236 [13/Semi Bold] Time Logs
+  589,236 [13/Semi Bold] Leave History
+  711,236 [13/Semi Bold] Settings
+  293,303 [16/Bold] Profile Details
+  293,336 [12/Medium] Full Name
+  306,355 [14/Regular] Jordan Cole
+  293,410 [12/Medium] Phone
+
+#### #37 390x844 abs 2524,30622 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Settings
+  178,96 [26/Bold] JC
+  16,162 [16/Bold] Jordan Cole
+  28,200 [12/Semi Bold] Overview
+  111,200 [12/Semi Bold] Settings
+  33,255 [16/Bold] Profile
+  33,284 [12/Medium] Full Name
+  46,303 [14/Regular] Jordan Cole
+  33,358 [12/Medium] Phone
+  46,377 [14/Regular] +1 415 555 0148
+  33,467 [12/Regular] Task notifications
+  33,499 [12/Regular] Weekly digest
+  32,547 [14/Regular] Save Changes
+  25,819 [10/Semi Bold] Home
+  103,819 [10/Semi Bold] Tasks
+  183,819 [10/Semi Bold] Time
+  250,819 [10/Semi Bold] Requests
+  338,819 [10/Semi Bold] Inbox
+
+#### #38 1280x900 abs 1074,31676 name="artboard"
+  1203,10 [9/Bold] 3
+  264,21 [14/Semi Bold] My Requests
+  405,22 [13/Regular] Search (Cmd+K)
+  1232,22 [12/Bold] JC
+  1126,84 [14/Regular] New Request
+  268,89 [22/Bold] My Requests
+  284,150 [13/Semi Bold] All (4)
+  358,150 [13/Semi Bold] Leave (2)
+  452,150 [13/Semi Bold] Expenses (1)
+  568,150 [13/Semi Bold] Purchase Orders (1)
+  283,205 [11/Semi Bold] Type
+  441,205 [11/Semi Bold] Description
+  681,205 [11/Semi Bold] Dates
+  833,205 [11/Semi Bold] Submitted
+  953,205 [11/Semi Bold] Approver
+  1074,205 [11/Semi Bold] Status
+
+#### #39 390x844 abs 2524,31676 name="artboard"
+  366,10 [9/Bold] 3
+  58,20 [15/Bold] Request
+  24,74 [11/Medium] Pending
+  336,74 [12/Regular] 4 days
+  16,97 [16/Bold] Vacation — Family trip
+  16,120 [12/Regular] Oct 21 – Oct 25 · Submitted Oct 5
+  33,169 [12/Medium] Approver
+  33,187 [12/Regular] Alex Rivera
+  33,212 [12/Medium] Notes
+  33,230 [12/Regular] Family trip, reachable by email for urgent items.
+  16,275 [16/Bold] Status
+  54,310 [13/Bold] Request submitted
+  54,326 [12/Regular] Oct 5, 9:14 AM
+  54,366 [13/Bold] Awaiting manager review
+  54,382 [12/Regular] Alex Rivera
+  54,422 [13/Bold] Final decision
+  32,478 [14/Regular] Withdraw Request

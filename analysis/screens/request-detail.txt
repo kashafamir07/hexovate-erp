@@ -1,0 +1,91 @@
+# board 38 (request-detail) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,219 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,267 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,298 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,338 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,378 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,426 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,457 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,497 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,545 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+        ▢ FRAME "nav-item" @12,564 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,576 95x17 fs=14 w=Medium c=#1f3c88 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 96x17 fs=14 w=Semi Bold c=#374151 :: My Requests
+      ▢ FRAME "top-search" @368,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @405,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+        T @268,89 148x27 fs=22 w=Bold c=#1f3c88 :: My Requests
+        ▢ FRAME "btn" @1110,84 142x36 r=8 fill=#1f3c88
+          T @1126,84 110x36 fs=14 w=Regular c=#ffffff :: New Request
+          T @284,150 39x16 fs=13 w=Semi Bold c=#1f3c88 :: All (4)
+          T @358,150 59x16 fs=13 w=Semi Bold c=#6b7280 :: Leave (2)
+          T @452,150 81x16 fs=13 w=Semi Bold c=#6b7280 :: Expenses (1)
+          T @568,150 125x16 fs=13 w=Semi Bold c=#6b7280 :: Purchase Orders (1)
+      ▢ FRAME "card" @268,196 984x226 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            ▢ FRAME "th" @269,197 158x32 fill=#f8f9fa stroke=#e5e7eb
+            T @283,205 30x11 fs=11 w=Semi Bold c=#6b7280 :: Type
+            ▢ FRAME "th" @427,197 239x32 fill=#f8f9fa stroke=#e5e7eb
+            T @441,205 79x11 fs=11 w=Semi Bold c=#6b7280 :: Description
+            ▢ FRAME "th" @667,197 152x32 fill=#f8f9fa stroke=#e5e7eb
+            T @681,205 38x11 fs=11 w=Semi Bold c=#6b7280 :: Dates
+            ▢ FRAME "th" @819,197 121x32 fill=#f8f9fa stroke=#e5e7eb
+            T @833,205 68x11 fs=11 w=Semi Bold c=#6b7280 :: Submitted
+            ▢ FRAME "th" @939,197 121x32 fill=#f8f9fa stroke=#e5e7eb
+            T @953,205 62x11 fs=11 w=Semi Bold c=#6b7280 :: Approver
+            ▢ FRAME "th" @1060,197 119x32 fill=#f8f9fa stroke=#e5e7eb
+            T @1074,205 45x11 fs=11 w=Semi Bold c=#6b7280 :: Status
+            ▢ FRAME "th" @1180,197 71x32 fill=#f8f9fa stroke=#e5e7eb
+            ▢ FRAME "badge" @283,243 47x19 r=4 fill=#f3f4f6
+            T @291,245 32x11 fs=11 w=Medium c=#6b7280 :: Leave
+            T @441,245 141x16 fs=13 w=Semi Bold c=#374151 :: Vacation — Family trip
+            T @681,245 95x16 fs=13 w=Regular c=#6b7280 :: Oct 21 – Oct 25
+            T @833,245 34x16 fs=13 w=Regular c=#6b7280 :: Oct 5
+            T @953,245 69x16 fs=13 w=Regular c=#374151 :: Alex Rivera
+            ▢ FRAME "badge" @1074,243 59x19 r=4 fill=#fef3c7
+            T @1082,245 43x11 fs=11 w=Medium c=#b45309 :: Pending
+            T @1194,245 30x14 fs=12 w=Semi Bold c=#2e86ab :: View
+            ▢ FRAME "tr" @269,276 982x48 fill=#f8f9fa
+            ▢ FRAME "badge" @283,291 61x19 r=4 fill=#f3f4f6
+            T @291,293 45x11 fs=11 w=Medium c=#6b7280 :: Expense
+            T @441,293 163x16 fs=13 w=Semi Bold c=#374151 :: Client dinner — TechNova
+            T @681,293 34x16 fs=13 w=Regular c=#6b7280 :: Oct 3
+            T @833,293 34x16 fs=13 w=Regular c=#6b7280 :: Oct 4
+            T @953,293 69x16 fs=13 w=Regular c=#374151 :: Alex Rivera
+            ▢ FRAME "badge" @1074,291 67x19 r=4 fill=#eaf3de
+            T @1082,293 52x11 fs=11 w=Medium c=#16a34a :: Approved
+            T @1194,293 30x14 fs=12 w=Semi Bold c=#2e86ab :: View
+            ▢ FRAME "badge" @283,339 47x19 r=4 fill=#f3f4f6
+            T @291,341 32x11 fs=11 w=Medium c=#6b7280 :: Leave
+            T @441,341 53x16 fs=13 w=Semi Bold c=#374151 :: Sick day
+            T @681,341 44x16 fs=13 w=Regular c=#6b7280 :: Sep 28
+            T @833,341 44x16 fs=13 w=Regular c=#6b7280 :: Sep 28
+            T @953,341 69x16 fs=13 w=Regular c=#374151 :: Alex Rivera
+            ▢ FRAME "badge" @1074,339 67x19 r=4 fill=#eaf3de
+            T @1082,341 52x11 fs=11 w=Medium c=#16a34a :: Approved
+            T @1194,341 30x14 fs=12 w=Semi Bold c=#2e86ab :: View
+            ▢ FRAME "tr" @269,372 982x48 fill=#f8f9fa
+            ▢ FRAME "badge" @283,387 98x19 r=4 fill=#f3f4f6
+            T @291,389 82x11 fs=11 w=Medium c=#6b7280 :: Purchase Order
+            T @441,389 122x16 fs=13 w=Semi Bold c=#374151 :: Figma seat renewal
+            T @681,389 13x16 fs=13 w=Regular c=#6b7280 :: —
+            T @833,389 44x16 fs=13 w=Regular c=#6b7280 :: Sep 20
+            T @953,389 69x16 fs=13 w=Regular c=#374151 :: Alex Rivera
+            ▢ FRAME "badge" @1074,387 62x19 r=4 fill=#fcebeb
+            T @1082,389 47x11 fs=11 w=Medium c=#dc2626 :: Rejected
+            T @1194,389 30x14 fs=12 w=Semi Bold c=#2e86ab :: View

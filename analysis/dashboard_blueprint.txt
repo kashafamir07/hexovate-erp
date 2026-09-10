@@ -1,0 +1,152 @@
+
+######## artboard 1280x900 abs 1074,9542 ########
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T "HEXOVATE" @20,18 220x18 fs=18 w=Bold c=#1f3c88
+          T "MAIN" @22,64 215x11 fs=11 w=Semi Bold c=#6b7280
+        ▢ FRAME "nav-item" @12,83 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T "Dashboard" @53,95 81x17 fs=14 w=Medium c=#1f3c88
+          T "Personal Workspace" @54,135 146x17 fs=14 w=Medium c=#374151
+          T "PEOPLE" @22,183 215x11 fs=11 w=Semi Bold c=#6b7280
+          T "Org Chart" @54,215 73x17 fs=14 w=Medium c=#374151
+          T "WORK" @22,270 215x11 fs=11 w=Semi Bold c=#6b7280
+          T "Projects" @54,301 63x17 fs=14 w=Medium c=#374151
+          T "My Tasks" @54,341 72x17 fs=14 w=Medium c=#374151
+          T "Time Tracker" @54,381 96x17 fs=14 w=Medium c=#374151
+          T "COMMS" @22,429 215x11 fs=11 w=Semi Bold c=#6b7280
+          T "Messages" @54,460 76x17 fs=14 w=Medium c=#374151
+          T "Announcements" @54,500 118x17 fs=14 w=Medium c=#374151
+          T "REQUESTS" @22,548 215x11 fs=11 w=Semi Bold c=#6b7280
+          T "My Requests" @54,579 95x17 fs=14 w=Medium c=#374151
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88 sw=1
+        T "JC" @24,863 16x14 fs=12 w=Bold c=#ffffff
+        T "Jordan Cole" @58,856 84x16 fs=13 w=Semi Bold c=#374151
+        T "Employee" @58,871 84x13 fs=11 w=Regular c=#6b7280
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff sw=1
+      T "Dashboard" @264,21 82x17 fs=14 w=Semi Bold c=#374151
+      ▢ FRAME "top-search" @354,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T "Search (Cmd+K)" @391,22 110x16 fs=13 w=Regular c=#6b7280
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa sw=1
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626 sw=1
+            T "3" @1203,10 6x9 fs=9 w=Bold c=#ffffff
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88 sw=1
+          T "JC" @1232,22 16x14 fs=12 w=Bold c=#ffffff
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff sw=1
+        ▢ FRAME "card" @268,104 984x84 r=12 fill=#1f3c88 sw=1
+              T "Good morning, Jordan" @294,126 218x18 fs=18 w=Bold c=#ffffff
+              T "Here's what you need to do today." @294,150 218x16 fs=13 w=Regular c=#ffffff
+              T "Monday, October 12" @1090,132 136x28 fs=14 w=Bold c=#ffffff
+              T "68°F · New York" @1090,146 136x14 fs=12 w=Regular c=#ffffff
+            ▢ FRAME "card" @268,204 643x239 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+                T "Today's Tasks" @293,225 120x19 fs=16 w=Bold c=#374151
+                T "View All" @839,227 55x14 fs=12 w=Semi Bold c=#2e86ab
+                ▢ FRAME "chk" @293,277 16x16 r=4 fill=#1f3c88 stroke=#1f3c88 sw=1
+                  T "Review Q3 Marketing Deck" @321,270 520x16 fs=13 w=Semi Bold c=#374151
+                  T "10:00 AM" @321,285 520x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "badge" @845,275 40x19 r=4 fill=#fcebeb sw=1
+                  T "High" @853,277 25x11 fs=11 w=Medium c=#dc2626
+                ▢ FRAME "chk" @293,332 16x16 r=4 fill=#1f3c88 stroke=#1f3c88 sw=1
+                  T "Client Onboarding: TechNova" @321,325 521x16 fs=13 w=Semi Bold c=#374151
+                  T "1:00 PM" @321,340 521x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "badge" @846,330 39x19 r=4 fill=#fef3c7 sw=1
+                  T "Med" @854,332 24x11 fs=11 w=Medium c=#b45309
+                  T "Approve pending leave requests" @321,380 523x16 fs=13 w=Semi Bold c=#374151
+                  T "By EOD" @321,395 523x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "badge" @848,385 38x19 r=4 fill=#eaf3de sw=1
+                  T "Low" @856,387 22x11 fs=11 w=Medium c=#16a34a
+            ▢ FRAME "card" @268,459 643x181 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "Active Projects" @293,480 126x19 fs=16 w=Bold c=#374151
+                  T "Website Redesign" @293,513 113x14 fs=12 w=Bold c=#374151
+                  T "2 hours ago" @818,513 76x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "progress" @293,533 592x6 r=4 fill=#e5e7eb sw=1
+                  ▢ FRAME "span" @293,533 444x6 r=4 fill=#1f3c88 sw=1
+                T "75% complete" @293,543 600x14 fs=12 w=Regular c=#6b7280
+                  T "ERP Implementation" @293,574 125x14 fs=12 w=Bold c=#374151
+                  T "Yesterday" @829,574 64x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "progress" @293,594 592x6 r=4 fill=#e5e7eb sw=1
+                  ▢ FRAME "span" @293,594 178x6 r=4 fill=#1f3c88 sw=1
+                T "30% complete" @293,604 600x14 fs=12 w=Regular c=#6b7280
+            ▢ FRAME "card" @268,656 643x188 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "Recent Activity" @293,677 127x19 fs=16 w=Bold c=#374151
+                ▢ FRAME "avatar" @293,722 32x32 r=50 fill=#2e86ab sw=1
+                  T "SJ" @302,730 15x14 fs=12 w=Bold c=#ffffff
+                  T "Sarah Jenkins commented on task" @337,723 195x14 fs=12 w=Regular c=#374151
+                  T "Homepage Copy" @536,723 105x14 fs=12 w=Bold c=#374151
+                  T "10 min ago" @337,738 304x14 fs=12 w=Regular c=#6b7280
+                ▢ FRAME "avatar" @293,779 32x32 r=50 fill=#16a34a sw=1
+                  T "MC" @299,787 21x14 fs=12 w=Bold c=#ffffff
+                  T "Mike Chen approved your leave request" @337,780 225x14 fs=12 w=Regular c=#374151
+                  T "1 hour ago" @337,795 234x14 fs=12 w=Regular c=#6b7280
+            ▢ FRAME "card" @931,204 321x114 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "24" @956,225 280x26 fs=26 w=Bold c=#1f3c88
+              T "Tasks Completed" @956,255 279x14 fs=12 w=Regular c=#6b7280
+              ▢ FRAME "badge" @956,277 118x19 r=4 fill=#eaf3de sw=1
+                T "↑ 12% vs last week" @964,279 103x11 fs=11 w=Medium c=#16a34a
+            ▢ FRAME "card" @931,333 321x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "32.5" @956,354 280x26 fs=26 w=Bold c=#1f3c88
+              T "Hours Logged This Week" @956,384 279x14 fs=12 w=Regular c=#6b7280
+            ▢ FRAME "card" @931,436 321x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "14 Days" @956,457 280x26 fs=26 w=Bold c=#1f3c88
+              T "Annual Leave Balance" @956,487 279x14 fs=12 w=Regular c=#6b7280
+            ▢ FRAME "card" @931,538 321x184 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "Upcoming Deadlines" @956,560 170x19 fs=16 w=Bold c=#374151
+                  T "Finalize budget" @956,604 229x16 fs=13 w=Semi Bold c=#374151
+                  T "Marketing Q4" @956,620 229x14 fs=12 w=Regular c=#6b7280
+                T "2 days" @1189,612 46x14 fs=12 w=Regular c=#6b7280
+                  T "Vendor contract" @956,660 230x16 fs=13 w=Semi Bold c=#374151
+                  T "Operations" @956,675 230x14 fs=12 w=Regular c=#6b7280
+                T "5 days" @1189,667 45x14 fs=12 w=Regular c=#6b7280
+            ▢ FRAME "card" @931,739 321x107 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+              T "Team Online" @956,760 105x19 fs=16 w=Bold c=#374151
+                ▢ FRAME "avatar" @956,793 32x32 r=50 fill=#2e86ab sw=1
+                  T "SJ" @964,801 15x14 fs=12 w=Bold c=#ffffff
+                ▢ FRAME "avatar" @980,793 32x32 r=50 fill=#16a34a sw=1
+                  T "MC" @986,801 21x14 fs=12 w=Bold c=#ffffff
+                ▢ FRAME "avatar" @1004,793 32x32 r=50 fill=#6d28d9 sw=1
+                  T "AR" @1011,801 17x14 fs=12 w=Bold c=#ffffff
+                ▢ FRAME "avatar" @1028,793 32x32 r=50 fill=#6b7280 sw=1
+                  T "+4" @1036,801 17x14 fs=12 w=Bold c=#ffffff
+▢ FRAME "div" @822,832 430x44 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+    T "New Task" @865,846 62x16 fs=13 w=Semi Bold c=#374151
+    T "Log Time" @978,846 58x16 fs=13 w=Semi Bold c=#374151
+    T "Leave" @1088,846 38x16 fs=13 w=Semi Bold c=#374151
+    T "Expense" @1178,846 54x16 fs=13 w=Semi Bold c=#374151
+
+######## artboard 390x844 abs 2524,9542 ########
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff sw=1
+    T "HEXOVATE" @16,20 94x15 fs=15 w=Bold c=#1f3c88
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626 sw=1
+        T "3" @366,10 6x9 fs=9 w=Bold c=#ffffff
+  ▢ FRAME "div" @0,56 390x724 fill=#ffffff sw=1
+    ▢ FRAME "div" @16,72 358x69 r=12 fill=#1f3c88 stroke=#e5e7eb sw=1
+      T "Good morning, Jordan" @33,89 332x16 fs=16 w=Bold c=#ffffff
+      T "Mon, Oct 12 · 68°F" @33,109 332x14 fs=12 w=Regular c=#ffffff
+    T "Today's Tasks" @16,155 366x19 fs=16 w=Bold c=#374151
+    ▢ FRAME "div" @16,184 358x143 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        ▢ FRAME "chk" @33,220 16x16 r=4 fill=#1f3c88 stroke=#1f3c88 sw=1
+          T "Review Q3 Marketing Deck" @61,213 251x16 fs=13 w=Semi Bold c=#374151
+          T "10:00 AM" @61,228 251x14 fs=12 w=Regular c=#6b7280
+        ▢ FRAME "badge" @317,218 40x19 r=4 fill=#fcebeb sw=1
+          T "High" @325,220 25x11 fs=11 w=Medium c=#dc2626
+          T "Client Onboarding: TechNova" @61,268 253x16 fs=13 w=Semi Bold c=#374151
+          T "1:00 PM" @61,283 253x14 fs=12 w=Regular c=#6b7280
+        ▢ FRAME "badge" @318,273 39x19 r=4 fill=#fef3c7 sw=1
+          T "Med" @326,275 24x11 fs=11 w=Medium c=#b45309
+      ▢ FRAME "div" @16,341 173x73 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T "24" @33,358 147x20 fs=20 w=Bold c=#1f3c88
+        T "Completed" @33,382 147x14 fs=12 w=Regular c=#6b7280
+      ▢ FRAME "div" @201,341 173x73 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T "14d" @218,358 147x20 fs=20 w=Bold c=#1f3c88
+        T "Leave Balance" @218,382 147x14 fs=12 w=Regular c=#6b7280
+    T "Active Projects" @16,427 366x19 fs=16 w=Bold c=#374151
+    ▢ FRAME "div" @16,456 358x61 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T "Website Redesign" @33,473 113x14 fs=12 w=Bold c=#374151
+        T "75%" @331,473 34x14 fs=12 w=Regular c=#6b7280
+      ▢ FRAME "progress" @33,494 324x6 r=4 fill=#e5e7eb sw=1
+        ▢ FRAME "span" @33,494 243x6 r=4 fill=#1f3c88 sw=1
+  ▢ FRAME "div" @0,780 390x64 fill=#ffffff stroke=#e5e7eb sw=1
+      T "Home" @25,819 36x10 fs=10 w=Semi Bold c=#1f3c88
+      T "Tasks" @103,819 36x10 fs=10 w=Semi Bold c=#6b7280
+      T "Time" @183,819 32x10 fs=10 w=Semi Bold c=#6b7280
+      T "Requests" @250,819 53x10 fs=10 w=Semi Bold c=#6b7280
+      T "Inbox" @338,819 35x10 fs=10 w=Semi Bold c=#6b7280
+▢ FRAME "div" @322,712 52x52 r=50 fill=#1f3c88 sw=1

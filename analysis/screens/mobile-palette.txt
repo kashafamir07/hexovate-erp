@@ -1,0 +1,16 @@
+# board 35 (mobile-palette) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Search
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x788 fill=#ffffff
+    ▢ FRAME "div" @16,72 358x40 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+      T @53,84 95x16 fs=13 w=Regular c=#6b7280 :: design pricing
+      T @26,134 358x11 fs=11 w=Semi Bold c=#6b7280 :: GO TO
+      T @60,163 294x16 fs=13 w=Regular c=#374151 :: Website Redesign — Project
+      T @60,199 294x16 fs=13 w=Regular c=#374151 :: My Tasks
+      T @26,239 358x11 fs=11 w=Semi Bold c=#6b7280 :: TASKS
+      T @60,268 294x16 fs=13 w=Regular c=#374151 :: Design pricing page
+      T @26,308 358x11 fs=11 w=Semi Bold c=#6b7280 :: ACTIONS
+      T @60,337 294x16 fs=13 w=Regular c=#374151 :: Create new task
+      T @60,373 294x16 fs=13 w=Regular c=#374151 :: Start timer on this task

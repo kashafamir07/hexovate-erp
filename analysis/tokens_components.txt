@@ -1,0 +1,733 @@
+# COMPONENTS (301 symbols)
+variant=1,:hover=false	uses=0 defs=17
+variant=1,:hover=true	uses=0 defs=16
+variant=1	uses=0 defs=3
+variant=10,:hover=false	uses=0 defs=1
+variant=10,:hover=true	uses=0 defs=1
+variant=10	uses=0 defs=3
+variant=100	uses=0 defs=1
+variant=101	uses=0 defs=1
+variant=102	uses=0 defs=1
+variant=103	uses=0 defs=1
+variant=104	uses=0 defs=1
+variant=105	uses=0 defs=1
+variant=106	uses=0 defs=1
+variant=11	uses=0 defs=3
+variant=12	uses=0 defs=2
+variant=13	uses=0 defs=2
+variant=14	uses=0 defs=2
+variant=15	uses=0 defs=2
+variant=16	uses=0 defs=2
+variant=17	uses=0 defs=2
+variant=18	uses=0 defs=2
+variant=19	uses=0 defs=2
+variant=2,:hover=false	uses=0 defs=17
+variant=2,:hover=true	uses=0 defs=17
+variant=2	uses=0 defs=3
+variant=20	uses=0 defs=2
+variant=21	uses=0 defs=2
+variant=22	uses=0 defs=2
+variant=23	uses=0 defs=2
+variant=24	uses=0 defs=1
+variant=25	uses=0 defs=1
+variant=26	uses=0 defs=1
+variant=27	uses=0 defs=1
+variant=28	uses=0 defs=1
+variant=29	uses=0 defs=1
+variant=3,:hover=false	uses=0 defs=13
+variant=3,:hover=true	uses=0 defs=13
+variant=3	uses=0 defs=3
+variant=30	uses=0 defs=1
+variant=31	uses=0 defs=1
+variant=32	uses=0 defs=1
+variant=33	uses=0 defs=1
+variant=34	uses=0 defs=1
+variant=35	uses=0 defs=1
+variant=36	uses=0 defs=1
+variant=37	uses=0 defs=1
+variant=38	uses=0 defs=1
+variant=39	uses=0 defs=1
+variant=4,:hover=false	uses=0 defs=11
+variant=4,:hover=true	uses=0 defs=11
+variant=4	uses=0 defs=3
+variant=40	uses=0 defs=1
+variant=41	uses=0 defs=1
+variant=42	uses=0 defs=1
+variant=43	uses=0 defs=1
+variant=44	uses=0 defs=1
+variant=45	uses=0 defs=1
+variant=46	uses=0 defs=1
+variant=47	uses=0 defs=1
+variant=48	uses=0 defs=1
+variant=49	uses=0 defs=1
+variant=5,:hover=false	uses=0 defs=8
+variant=5,:hover=true	uses=0 defs=8
+variant=5	uses=0 defs=3
+variant=50	uses=0 defs=1
+variant=51	uses=0 defs=1
+variant=52	uses=0 defs=1
+variant=53	uses=0 defs=1
+variant=54	uses=0 defs=1
+variant=55	uses=0 defs=1
+variant=56	uses=0 defs=1
+variant=57	uses=0 defs=1
+variant=58	uses=0 defs=1
+variant=59	uses=0 defs=1
+variant=6,:hover=false	uses=0 defs=6
+variant=6,:hover=true	uses=0 defs=6
+variant=6	uses=0 defs=3
+variant=60	uses=0 defs=1
+variant=61	uses=0 defs=1
+variant=62	uses=0 defs=1
+variant=63	uses=0 defs=1
+variant=64	uses=0 defs=1
+variant=65	uses=0 defs=1
+variant=66	uses=0 defs=1
+variant=67	uses=0 defs=1
+variant=68	uses=0 defs=1
+variant=69	uses=0 defs=1
+variant=7,:hover=false	uses=0 defs=3
+variant=7,:hover=true	uses=0 defs=3
+variant=7	uses=0 defs=3
+variant=70	uses=0 defs=1
+variant=71	uses=0 defs=1
+variant=72	uses=0 defs=1
+variant=73	uses=0 defs=1
+variant=74	uses=0 defs=1
+variant=75	uses=0 defs=1
+variant=76	uses=0 defs=1
+variant=77	uses=0 defs=1
+variant=78	uses=0 defs=1
+variant=79	uses=0 defs=1
+variant=8,:hover=false	uses=0 defs=3
+variant=8,:hover=true	uses=0 defs=3
+variant=8	uses=0 defs=3
+variant=80	uses=0 defs=1
+variant=81	uses=0 defs=1
+variant=82	uses=0 defs=1
+variant=83	uses=0 defs=1
+variant=84	uses=0 defs=1
+variant=85	uses=0 defs=1
+variant=86	uses=0 defs=1
+variant=87	uses=0 defs=1
+variant=88	uses=0 defs=1
+variant=89	uses=0 defs=1
+variant=9,:hover=false	uses=0 defs=2
+variant=9,:hover=true	uses=0 defs=2
+variant=9	uses=0 defs=3
+variant=90	uses=0 defs=1
+variant=91	uses=0 defs=1
+variant=92	uses=0 defs=1
+variant=93	uses=0 defs=1
+variant=94	uses=0 defs=1
+variant=95	uses=0 defs=1
+variant=96	uses=0 defs=1
+variant=97	uses=0 defs=1
+variant=98	uses=0 defs=1
+variant=99	uses=0 defs=1
+
+# VARIABLE SETS
+html.to.design
+html.to.design
+
+# VARIABLES
+stroke weight/1_35	(FLOAT)	1.3499999046325684	[set: html.to.design]
+opacity/100	(FLOAT)	100	[set: html.to.design]
+color/white/solid	(COLOR)	rgba(255,255,255,1) #ffffff	[set: html.to.design]
+color/blue/61	(COLOR)	rgba(136,145,176,1) #8891b0	[set: html.to.design]
+stroke weight/1_2	(FLOAT)	1.2000000476837158	[set: html.to.design]
+color/azure/47	(COLOR)	rgba(107,115,133,1) #6b7385	[set: html.to.design]
+stroke weight/1_28	(FLOAT)	1.2833333015441895	[set: html.to.design]
+color/black/solid	(COLOR)	rgba(0,0,0,1) #000000	[set: html.to.design]
+stroke weight/1_17	(FLOAT)	1.1666666269302368	[set: html.to.design]
+color/blue/16	(COLOR)	rgba(26,33,55,1) #1a2137	[set: html.to.design]
+stroke weight/1_33	(FLOAT)	1.3333333730697632	[set: html.to.design]
+color/azure/33	(COLOR)	rgba(31,60,136,1) #1f3c88	[set: html.to.design]
+stroke weight/1_05	(FLOAT)	1.0499999523162842	[set: html.to.design]
+stroke weight/0_67	(FLOAT)	0.6666666865348816	[set: html.to.design]
+stroke weight/1_13	(FLOAT)	1.125	[set: html.to.design]
+color/orange/52	(COLOR)	rgba(217,166,46,1) #d9a62e	[set: html.to.design]
+color/red/55	(COLOR)	rgba(214,69,69,1) #d64545	[set: html.to.design]
+color/grey/95	(COLOR)	rgba(237,239,245,1) #edeff5	[set: html.to.design]
+color/grey/97	(COLOR)	rgba(244,246,251,1) #f4f6fb	[set: html.to.design]
+color/azure/23	(COLOR)	rgba(22,41,94,1) #16295e	[set: html.to.design]
+corner radius/20	(FLOAT)	20	[set: html.to.design]
+color/azure/43	(COLOR)	rgba(46,134,171,1) #2e86ab	[set: html.to.design]
+font family/Font 1	(STRING)	{"textValue":"Inter"}	[set: html.to.design]
+font size/12	(FLOAT)	12	[set: html.to.design]
+font weight/700	(FLOAT)	700	[set: html.to.design]
+letter spacing/0_6	(FLOAT)	0.6000000238418579	[set: html.to.design]
+font size/40	(FLOAT)	40	[set: html.to.design]
+font weight/800	(FLOAT)	800	[set: html.to.design]
+width/560	(FLOAT)	560	[set: html.to.design]
+color/blue/79	(COLOR)	rgba(183,190,218,1) #b7beda	[set: html.to.design]
+font size/14	(FLOAT)	14	[set: html.to.design]
+font weight/400	(FLOAT)	400	[set: html.to.design]
+line height/23_8	(FLOAT)	23.799999237060547	[set: html.to.design]
+width/240	(FLOAT)	240	[set: html.to.design]
+item spacing/10	(FLOAT)	10	[set: html.to.design]
+corner radius/8	(FLOAT)	8	[set: html.to.design]
+font size/15	(FLOAT)	15	[set: html.to.design]
+color/grey/95 2	(COLOR)	rgba(237,239,247,1) #edeff7	[set: html.to.design]
+letter spacing/0_4	(FLOAT)	0.4000000059604645	[set: html.to.design]
+font size/11	(FLOAT)	11	[set: html.to.design]
+font weight/600	(FLOAT)	600	[set: html.to.design]
+letter spacing/0_8	(FLOAT)	0.800000011920929	[set: html.to.design]
+item spacing/xxxs	(FLOAT)	2	[set: html.to.design]
+font size/13_5	(FLOAT)	13.5	[set: html.to.design]
+stroke weight/1	(FLOAT)	1	[set: html.to.design]
+color/blue/29	(COLOR)	rgba(42,55,104,1) #2a3768	[set: html.to.design]
+corner radius/17	(FLOAT)	17	[set: html.to.design]
+font size/12_5	(FLOAT)	12.5	[set: html.to.design]
+item spacing/544_17	(FLOAT)	544.1699829101562	[set: html.to.design]
+color/grey/92	(COLOR)	rgba(228,232,241,1) #e4e8f1	[set: html.to.design]
+item spacing/xxs	(FLOAT)	4	[set: html.to.design]
+item spacing/s	(FLOAT)	16	[set: html.to.design]
+color/grey/46	(COLOR)	rgba(117,117,117,1) #757575	[set: html.to.design]
+corner radius/3_5	(FLOAT)	3.5	[set: html.to.design]
+corner radius/19	(FLOAT)	19	[set: html.to.design]
+item spacing/18	(FLOAT)	18	[set: html.to.design]
+item spacing/s+	(FLOAT)	24	[set: html.to.design]
+font size/14_5	(FLOAT)	14.5	[set: html.to.design]
+item spacing/6	(FLOAT)	6	[set: html.to.design]
+font size/13	(FLOAT)	13	[set: html.to.design]
+item spacing/851	(FLOAT)	851	[set: html.to.design]
+color/grey/92 2	(COLOR)	rgba(251,241,218,1) #fbf1da	[set: html.to.design]
+font size/11_5	(FLOAT)	11.5	[set: html.to.design]
+item spacing/557_14	(FLOAT)	557.1400146484375	[set: html.to.design]
+item spacing/351_61	(FLOAT)	351.6099853515625	[set: html.to.design]
+item spacing/354_83	(FLOAT)	354.8299865722656	[set: html.to.design]
+item spacing/301_06	(FLOAT)	301.05999755859375	[set: html.to.design]
+corner radius/9	(FLOAT)	9	[set: html.to.design]
+item spacing/268_55	(FLOAT)	268.54998779296875	[set: html.to.design]
+item spacing/282_97	(FLOAT)	282.9700012207031	[set: html.to.design]
+item spacing/288_53	(FLOAT)	288.5299987792969	[set: html.to.design]
+item spacing/298_41	(FLOAT)	298.4100036621094	[set: html.to.design]
+item spacing/322_86	(FLOAT)	322.8599853515625	[set: html.to.design]
+item spacing/635_14	(FLOAT)	635.1400146484375	[set: html.to.design]
+item spacing/235_36	(FLOAT)	235.36000061035156	[set: html.to.design]
+item spacing/266_64	(FLOAT)	266.6400146484375	[set: html.to.design]
+color/grey/93	(COLOR)	rgba(228,241,246,1) #e4f1f6	[set: html.to.design]
+item spacing/281_25	(FLOAT)	281.25	[set: html.to.design]
+item spacing/267_86	(FLOAT)	267.8599853515625	[set: html.to.design]
+item spacing/270_26	(FLOAT)	270.260009765625	[set: html.to.design]
+item spacing/363_09	(FLOAT)	363.0899963378906	[set: html.to.design]
+font size/22	(FLOAT)	22	[set: html.to.design]
+item spacing/323_53	(FLOAT)	323.5299987792969	[set: html.to.design]
+item spacing/341_95	(FLOAT)	341.95001220703125	[set: html.to.design]
+item spacing/327_29	(FLOAT)	327.2900085449219	[set: html.to.design]
+item spacing/571_02	(FLOAT)	571.02001953125	[set: html.to.design]
+item spacing/575_91	(FLOAT)	575.9099731445312	[set: html.to.design]
+corner radius/26	(FLOAT)	26	[set: html.to.design]
+item spacing/218_88	(FLOAT)	218.8800048828125	[set: html.to.design]
+item spacing/250_7	(FLOAT)	250.6999969482422	[set: html.to.design]
+item spacing/212_8	(FLOAT)	212.8000030517578	[set: html.to.design]
+item spacing/608_67	(FLOAT)	608.6699829101562	[set: html.to.design]
+width/640	(FLOAT)	640	[set: html.to.design]
+item spacing/431_28	(FLOAT)	431.2799987792969	[set: html.to.design]
+item spacing/384_55	(FLOAT)	384.54998779296875	[set: html.to.design]
+item spacing/416_98	(FLOAT)	416.9800109863281	[set: html.to.design]
+item spacing/378_78	(FLOAT)	378.7799987792969	[set: html.to.design]
+item spacing/612_98	(FLOAT)	612.97998046875	[set: html.to.design]
+item spacing/637_44	(FLOAT)	637.4400024414062	[set: html.to.design]
+item spacing/0	(FLOAT)	1.4210854715202004e-13	[set: html.to.design]
+item spacing/616_72	(FLOAT)	616.719970703125	[set: html.to.design]
+item spacing/375_48	(FLOAT)	375.4800109863281	[set: html.to.design]
+item spacing/364_62	(FLOAT)	364.6199951171875	[set: html.to.design]
+item spacing/371_28	(FLOAT)	371.2799987792969	[set: html.to.design]
+item spacing/362_17	(FLOAT)	362.1700134277344	[set: html.to.design]
+item spacing/381_5	(FLOAT)	381.5	[set: html.to.design]
+item spacing/404_45	(FLOAT)	404.45001220703125	[set: html.to.design]
+item spacing/373_14	(FLOAT)	373.1400146484375	[set: html.to.design]
+item spacing/380_78	(FLOAT)	380.7799987792969	[set: html.to.design]
+item spacing/348_62	(FLOAT)	348.6199951171875	[set: html.to.design]
+item spacing/373_52	(FLOAT)	373.5199890136719	[set: html.to.design]
+item spacing/653_95	(FLOAT)	653.9500122070312	[set: html.to.design]
+item spacing/655_67	(FLOAT)	655.6699829101562	[set: html.to.design]
+color/grey/93 2	(COLOR)	rgba(227,246,234,1) #e3f6ea	[set: html.to.design]
+color/spring green/40	(COLOR)	rgba(46,158,91,1) #2e9e5b	[set: html.to.design]
+item spacing/243_83	(FLOAT)	243.8300018310547	[set: html.to.design]
+item spacing/374_19	(FLOAT)	374.19000244140625	[set: html.to.design]
+item spacing/670_73	(FLOAT)	670.72998046875	[set: html.to.design]
+item spacing/400_72	(FLOAT)	400.7200012207031	[set: html.to.design]
+item spacing/242_25	(FLOAT)	242.25	[set: html.to.design]
+item spacing/381_17	(FLOAT)	381.1700134277344	[set: html.to.design]
+item spacing/668_52	(FLOAT)	668.52001953125	[set: html.to.design]
+item spacing/722_5	(FLOAT)	722.5	[set: html.to.design]
+item spacing/246_36	(FLOAT)	246.36000061035156	[set: html.to.design]
+item spacing/285_98	(FLOAT)	285.9800109863281	[set: html.to.design]
+item spacing/247_36	(FLOAT)	247.36000061035156	[set: html.to.design]
+item spacing/681_64	(FLOAT)	681.6400146484375	[set: html.to.design]
+item spacing/342_96	(FLOAT)	342.9599914550781	[set: html.to.design]
+item spacing/91_19	(FLOAT)	91.19000244140625	[set: html.to.design]
+item spacing/778_39	(FLOAT)	778.3900146484375	[set: html.to.design]
+item spacing/603_19	(FLOAT)	603.1900024414062	[set: html.to.design]
+item spacing/295_89	(FLOAT)	295.8900146484375	[set: html.to.design]
+item spacing/396_36	(FLOAT)	396.3599853515625	[set: html.to.design]
+item spacing/331_3	(FLOAT)	331.29998779296875	[set: html.to.design]
+item spacing/318_09	(FLOAT)	318.0899963378906	[set: html.to.design]
+item spacing/373_36	(FLOAT)	373.3599853515625	[set: html.to.design]
+item spacing/344_44	(FLOAT)	344.44000244140625	[set: html.to.design]
+item spacing/648_31	(FLOAT)	648.3099975585938	[set: html.to.design]
+item spacing/663_23	(FLOAT)	663.22998046875	[set: html.to.design]
+line height/20_8	(FLOAT)	20.799999237060547	[set: html.to.design]
+item spacing/826_57	(FLOAT)	826.5700073242188	[set: html.to.design]
+item spacing/795_75	(FLOAT)	795.75	[set: html.to.design]
+item spacing/642_17	(FLOAT)	642.1699829101562	[set: html.to.design]
+item spacing/395_41	(FLOAT)	395.4100036621094	[set: html.to.design]
+item spacing/59_94	(FLOAT)	59.939998626708984	[set: html.to.design]
+item spacing/47_39	(FLOAT)	47.38999938964844	[set: html.to.design]
+item spacing/93_3	(FLOAT)	93.30000305175781	[set: html.to.design]
+item spacing/605_95	(FLOAT)	605.9500122070312	[set: html.to.design]
+item spacing/69_94	(FLOAT)	69.94000244140625	[set: html.to.design]
+item spacing/86_81	(FLOAT)	86.80999755859375	[set: html.to.design]
+item spacing/57_39	(FLOAT)	57.38999938964844	[set: html.to.design]
+item spacing/101_61	(FLOAT)	101.61000061035156	[set: html.to.design]
+item spacing/693_77	(FLOAT)	693.77001953125	[set: html.to.design]
+item spacing/646_42	(FLOAT)	646.4199829101562	[set: html.to.design]
+item spacing/100_78	(FLOAT)	100.77999877929688	[set: html.to.design]
+item spacing/86_75	(FLOAT)	86.75	[set: html.to.design]
+width/506_4	(FLOAT)	506.3999938964844	[set: html.to.design]
+item spacing/599_52	(FLOAT)	599.52001953125	[set: html.to.design]
+item spacing/414_05	(FLOAT)	414.04998779296875	[set: html.to.design]
+item spacing/496_37	(FLOAT)	496.3699951171875	[set: html.to.design]
+color/red/55 13_3%	(COLOR)	rgba(214,69,69,0.13300000131130219) #d64545	[set: html.to.design]
+item spacing/287_21	(FLOAT)	287.2099914550781	[set: html.to.design]
+color/blue/86	(COLOR)	rgba(201,210,238,1) #c9d2ee	[set: html.to.design]
+item spacing/152_13	(FLOAT)	152.1300048828125	[set: html.to.design]
+item spacing/146_48	(FLOAT)	146.47999572753906	[set: html.to.design]
+font size/10_5	(FLOAT)	10.5	[set: html.to.design]
+item spacing/60	(FLOAT)	60	[set: html.to.design]
+color/grey/94	(COLOR)	rgba(255,247,222,1) #fff7de	[set: html.to.design]
+color/yellow/80	(COLOR)	rgba(240,226,168,1) #f0e2a8	[set: html.to.design]
+color/azure/40	(COLOR)	rgba(91,98,114,1) #5b6272	[set: html.to.design]
+item spacing/187_19	(FLOAT)	187.19000244140625	[set: html.to.design]
+item spacing/181_94	(FLOAT)	181.94000244140625	[set: html.to.design]
+item spacing/217_2	(FLOAT)	217.1999969482422	[set: html.to.design]
+item spacing/221_25	(FLOAT)	221.25	[set: html.to.design]
+item spacing/214_49	(FLOAT)	214.49000549316406	[set: html.to.design]
+item spacing/141_89	(FLOAT)	141.88999938964844	[set: html.to.design]
+item spacing/162_95	(FLOAT)	162.9499969482422	[set: html.to.design]
+item spacing/160_83	(FLOAT)	160.8300018310547	[set: html.to.design]
+item spacing/193_08	(FLOAT)	193.0800018310547	[set: html.to.design]
+item spacing/110_95	(FLOAT)	110.94999694824219	[set: html.to.design]
+item spacing/213_13	(FLOAT)	213.1300048828125	[set: html.to.design]
+stroke weight/1_38	(FLOAT)	1.375	[set: html.to.design]
+stroke weight/1_25	(FLOAT)	1.25	[set: html.to.design]
+color/grey/46 2	(COLOR)	rgba(107,114,128,1) #6b7280	[set: html.to.design]
+stroke weight/0_88	(FLOAT)	0.875	[set: html.to.design]
+color/spring green/36	(COLOR)	rgba(22,163,74,1) #16a34a	[set: html.to.design]
+color/red/51	(COLOR)	rgba(220,38,38,1) #dc2626	[set: html.to.design]
+color/azure/27	(COLOR)	rgba(55,65,81,1) #374151	[set: html.to.design]
+stroke weight/0_92	(FLOAT)	0.9206249713897705	[set: html.to.design]
+stroke weight/0_82	(FLOAT)	0.8193749785423279	[set: html.to.design]
+stroke weight/0_79	(FLOAT)	0.7912500500679016	[set: html.to.design]
+stroke weight/0_81	(FLOAT)	0.8068750500679016	[set: html.to.design]
+stroke weight/0_8	(FLOAT)	0.7956249713897705	[set: html.to.design]
+stroke weight/1_07	(FLOAT)	1.069374918937683	[set: html.to.design]
+color/grey/97 2	(COLOR)	rgba(238,242,255,1) #eef2ff	[set: html.to.design]
+color/grey/91	(COLOR)	rgba(229,231,235,1) #e5e7eb	[set: html.to.design]
+corner radius/12	(FLOAT)	12	[set: html.to.design]
+color/blue/89	(COLOR)	rgba(199,210,254,1) #c7d2fe	[set: html.to.design]
+color/azure/25	(COLOR)	rgba(30,58,95,1) #1e3a5f	[set: html.to.design]
+font size/9	(FLOAT)	9	[set: html.to.design]
+corner radius/4	(FLOAT)	4	[set: html.to.design]
+color/yellow/89	(COLOR)	rgba(254,243,199,1) #fef3c7	[set: html.to.design]
+color/orange/37	(COLOR)	rgba(180,83,9,1) #b45309	[set: html.to.design]
+font weight/500	(FLOAT)	500	[set: html.to.design]
+color/grey/98	(COLOR)	rgba(248,249,250,1) #f8f9fa	[set: html.to.design]
+color/grey/91 2	(COLOR)	rgba(234,243,222,1) #eaf3de	[set: html.to.design]
+color/grey/96	(COLOR)	rgba(243,244,246,1) #f3f4f6	[set: html.to.design]
+corner radius/2_5	(FLOAT)	2.5	[set: html.to.design]
+color/grey/46 3	(COLOR)	rgba(118,118,118,1) #767676	[set: html.to.design]
+item spacing/3_94	(FLOAT)	3.940000057220459	[set: html.to.design]
+width/64	(FLOAT)	64	[set: html.to.design]
+color/grey/95 3	(COLOR)	rgba(252,235,235,1) #fcebeb	[set: html.to.design]
+corner radius/14	(FLOAT)	14	[set: html.to.design]
+item spacing/7_87	(FLOAT)	7.869999885559082	[set: html.to.design]
+item spacing/7_88	(FLOAT)	7.880000114440918	[set: html.to.design]
+corner radius/13	(FLOAT)	13	[set: html.to.design]
+font size/10	(FLOAT)	10	[set: html.to.design]
+color/grey/95 4	(COLOR)	rgba(237,233,254,1) #ede9fe	[set: html.to.design]
+color/violet/50	(COLOR)	rgba(109,40,217,1) #6d28d9	[set: html.to.design]
+color/azure/90	(COLOR)	rgba(221,227,238,1) #dde3ee	[set: html.to.design]
+corner radius/6	(FLOAT)	6	[set: html.to.design]
+item spacing/xs	(FLOAT)	8	[set: html.to.design]
+font size/16	(FLOAT)	16	[set: html.to.design]
+letter spacing/0_55	(FLOAT)	0.550000011920929	[set: html.to.design]
+stroke weight/3	(FLOAT)	3	[set: html.to.design]
+width/18_94	(FLOAT)	18.940000534057617	[set: html.to.design]
+item spacing/20	(FLOAT)	20	[set: html.to.design]
+width/380	(FLOAT)	380	[set: html.to.design]
+width/138	(FLOAT)	138	[set: html.to.design]
+font size/28	(FLOAT)	28	[set: html.to.design]
+font size/18	(FLOAT)	18	[set: html.to.design]
+opacity/60	(FLOAT)	60	[set: html.to.design]
+opacity/70	(FLOAT)	70	[set: html.to.design]
+opacity/50	(FLOAT)	50	[set: html.to.design]
+opacity/90	(FLOAT)	90	[set: html.to.design]
+opacity/75	(FLOAT)	75	[set: html.to.design]
+opacity/40	(FLOAT)	40	[set: html.to.design]
+opacity/35	(FLOAT)	35	[set: html.to.design]
+item spacing/345_73	(FLOAT)	345.7300109863281	[set: html.to.design]
+item spacing/-1	(FLOAT)	-1	[set: html.to.design]
+letter spacing/0_24	(FLOAT)	0.23999999463558197	[set: html.to.design]
+item spacing/153_85	(FLOAT)	153.85000610351562	[set: html.to.design]
+item spacing/192_15	(FLOAT)	192.14999389648438	[set: html.to.design]
+item spacing/188_58	(FLOAT)	188.5800018310547	[set: html.to.design]
+item spacing/199_73	(FLOAT)	199.72999572753906	[set: html.to.design]
+item spacing/169_17	(FLOAT)	169.1699981689453	[set: html.to.design]
+item spacing/221_61	(FLOAT)	221.61000061035156	[set: html.to.design]
+item spacing/5_2	(FLOAT)	5.195000171661377	[set: html.to.design]
+letter spacing/0_44	(FLOAT)	0.4399999976158142	[set: html.to.design]
+item spacing/610_06	(FLOAT)	610.0599975585938	[set: html.to.design]
+font size/24	(FLOAT)	24	[set: html.to.design]
+width/80	(FLOAT)	80	[set: html.to.design]
+width/280	(FLOAT)	280	[set: html.to.design]
+item spacing/39_81	(FLOAT)	39.810001373291016	[set: html.to.design]
+item spacing/56_25	(FLOAT)	56.25	[set: html.to.design]
+item spacing/27_35	(FLOAT)	27.350000381469727	[set: html.to.design]
+item spacing/607_92	(FLOAT)	607.9199829101562	[set: html.to.design]
+item spacing/5_3	(FLOAT)	5.295000076293945	[set: html.to.design]
+item spacing/136_56	(FLOAT)	136.55999755859375	[set: html.to.design]
+item spacing/136_57	(FLOAT)	136.57000732421875	[set: html.to.design]
+item spacing/162_98	(FLOAT)	162.97999572753906	[set: html.to.design]
+item spacing/162_97	(FLOAT)	162.97000122070312	[set: html.to.design]
+item spacing/158_23	(FLOAT)	158.22999572753906	[set: html.to.design]
+item spacing/158_24	(FLOAT)	158.24000549316406	[set: html.to.design]
+item spacing/170_98	(FLOAT)	170.97999572753906	[set: html.to.design]
+item spacing/5_4	(FLOAT)	5.400000095367432	[set: html.to.design]
+font size/30	(FLOAT)	30	[set: html.to.design]
+stroke weight/2	(FLOAT)	2	[set: html.to.design]
+color/black/ 0%	(COLOR)	rgba(0,0,0,0) #000000	[set: html.to.design]
+item spacing/674_48	(FLOAT)	674.47998046875	[set: html.to.design]
+item spacing/673_8	(FLOAT)	673.7999877929688	[set: html.to.design]
+item spacing/720_52	(FLOAT)	720.52001953125	[set: html.to.design]
+item spacing/721_06	(FLOAT)	721.0599975585938	[set: html.to.design]
+item spacing/641_98	(FLOAT)	641.97998046875	[set: html.to.design]
+item spacing/720_83	(FLOAT)	720.8300170898438	[set: html.to.design]
+color/black/ 40%	(COLOR)	rgba(0,0,0,0.4000000059604645) #000000	[set: html.to.design]
+item spacing/363_27	(FLOAT)	363.2699890136719	[set: html.to.design]
+item spacing/148_08	(FLOAT)	148.0800018310547	[set: html.to.design]
+item spacing/148_77	(FLOAT)	148.77000427246094	[set: html.to.design]
+item spacing/169_3	(FLOAT)	169.3000030517578	[set: html.to.design]
+item spacing/139_95	(FLOAT)	139.9499969482422	[set: html.to.design]
+item spacing/445_31	(FLOAT)	445.30999755859375	[set: html.to.design]
+item spacing/5_29	(FLOAT)	5.295000076293945	[set: html.to.design]
+item spacing/546_75	(FLOAT)	546.75	[set: html.to.design]
+item spacing/32_17	(FLOAT)	32.16999816894531	[set: html.to.design]
+item spacing/602_22	(FLOAT)	602.219970703125	[set: html.to.design]
+item spacing/518_76	(FLOAT)	518.760009765625	[set: html.to.design]
+item spacing/268_73	(FLOAT)	268.7300109863281	[set: html.to.design]
+item spacing/280_34	(FLOAT)	280.3399963378906	[set: html.to.design]
+item spacing/10_01	(FLOAT)	10.010000228881836	[set: html.to.design]
+item spacing/656_33	(FLOAT)	656.3300170898438	[set: html.to.design]
+item spacing/66_25	(FLOAT)	66.25	[set: html.to.design]
+item spacing/29_81	(FLOAT)	29.809999465942383	[set: html.to.design]
+item spacing/23_08	(FLOAT)	23.079999923706055	[set: html.to.design]
+corner radius/11	(FLOAT)	11	[set: html.to.design]
+item spacing/-xs	(FLOAT)	-8	[set: html.to.design]
+item spacing/78_61	(FLOAT)	78.61000061035156	[set: html.to.design]
+item spacing/40_26	(FLOAT)	40.2599983215332	[set: html.to.design]
+item spacing/84_38	(FLOAT)	84.37999725341797	[set: html.to.design]
+item spacing/1_02	(FLOAT)	1.0199999809265137	[set: html.to.design]
+item spacing/78_81	(FLOAT)	78.80999755859375	[set: html.to.design]
+item spacing/86_72	(FLOAT)	86.72000122070312	[set: html.to.design]
+item spacing/5_99	(FLOAT)	5.989999771118164	[set: html.to.design]
+item spacing/79_39	(FLOAT)	79.38999938964844	[set: html.to.design]
+item spacing/83_25	(FLOAT)	83.25	[set: html.to.design]
+item spacing/230	(FLOAT)	230	[set: html.to.design]
+width/600	(FLOAT)	600	[set: html.to.design]
+corner radius/15	(FLOAT)	15	[set: html.to.design]
+item spacing/5_19	(FLOAT)	5.195000171661377	[set: html.to.design]
+item spacing/648_56	(FLOAT)	648.5599975585938	[set: html.to.design]
+item spacing/142_73	(FLOAT)	142.72999572753906	[set: html.to.design]
+item spacing/159_25	(FLOAT)	159.25	[set: html.to.design]
+item spacing/154_12	(FLOAT)	154.1199951171875	[set: html.to.design]
+item spacing/159_45	(FLOAT)	159.4499969482422	[set: html.to.design]
+item spacing/163_42	(FLOAT)	163.4199981689453	[set: html.to.design]
+item spacing/151	(FLOAT)	151	[set: html.to.design]
+item spacing/151_12	(FLOAT)	151.1199951171875	[set: html.to.design]
+item spacing/123_5	(FLOAT)	123.5	[set: html.to.design]
+item spacing/153_69	(FLOAT)	153.69000244140625	[set: html.to.design]
+item spacing/151_25	(FLOAT)	151.25	[set: html.to.design]
+item spacing/316_58	(FLOAT)	316.5799865722656	[set: html.to.design]
+item spacing/96_08	(FLOAT)	96.08000183105469	[set: html.to.design]
+item spacing/140_33	(FLOAT)	140.3300018310547	[set: html.to.design]
+item spacing/4_5	(FLOAT)	4.5	[set: html.to.design]
+item spacing/426_8	(FLOAT)	426.79998779296875	[set: html.to.design]
+item spacing/152_73	(FLOAT)	152.72999572753906	[set: html.to.design]
+item spacing/134_17	(FLOAT)	134.1699981689453	[set: html.to.design]
+item spacing/329_08	(FLOAT)	329.0799865722656	[set: html.to.design]
+item spacing/43_86	(FLOAT)	43.86000061035156	[set: html.to.design]
+item spacing/25_55	(FLOAT)	25.549999237060547	[set: html.to.design]
+item spacing/578_64	(FLOAT)	578.6400146484375	[set: html.to.design]
+item spacing/89_27	(FLOAT)	89.2699966430664	[set: html.to.design]
+item spacing/324_25	(FLOAT)	324.25	[set: html.to.design]
+corner radius/22	(FLOAT)	22	[set: html.to.design]
+font size/17	(FLOAT)	17	[set: html.to.design]
+item spacing/581_42	(FLOAT)	581.4199829101562	[set: html.to.design]
+item spacing/100_31	(FLOAT)	100.30999755859375	[set: html.to.design]
+item spacing/521_78	(FLOAT)	521.780029296875	[set: html.to.design]
+item spacing/524_33	(FLOAT)	524.3300170898438	[set: html.to.design]
+item spacing/428_11	(FLOAT)	428.1099853515625	[set: html.to.design]
+item spacing/471_45	(FLOAT)	471.45001220703125	[set: html.to.design]
+item spacing/61_47	(FLOAT)	61.470001220703125	[set: html.to.design]
+item spacing/45_87	(FLOAT)	45.869998931884766	[set: html.to.design]
+item spacing/260_44	(FLOAT)	260.44000244140625	[set: html.to.design]
+item spacing/281_14	(FLOAT)	281.1400146484375	[set: html.to.design]
+item spacing/282_2	(FLOAT)	282.20001220703125	[set: html.to.design]
+item spacing/241_56	(FLOAT)	241.55999755859375	[set: html.to.design]
+item spacing/360_37	(FLOAT)	360.3699951171875	[set: html.to.design]
+item spacing/720_97	(FLOAT)	720.969970703125	[set: html.to.design]
+item spacing/665_42	(FLOAT)	665.4199829101562	[set: html.to.design]
+corner radius/32	(FLOAT)	32	[set: html.to.design]
+font size/21	(FLOAT)	21	[set: html.to.design]
+item spacing/237_08	(FLOAT)	237.0800018310547	[set: html.to.design]
+item spacing/237_77	(FLOAT)	237.77000427246094	[set: html.to.design]
+item spacing/251_31	(FLOAT)	251.30999755859375	[set: html.to.design]
+item spacing/179_28	(FLOAT)	179.27999877929688	[set: html.to.design]
+item spacing/167_11	(FLOAT)	167.11000061035156	[set: html.to.design]
+item spacing/213_42	(FLOAT)	213.4199981689453	[set: html.to.design]
+item spacing/178_56	(FLOAT)	178.55999755859375	[set: html.to.design]
+item spacing/207_28	(FLOAT)	207.27999877929688	[set: html.to.design]
+item spacing/178_44	(FLOAT)	178.44000244140625	[set: html.to.design]
+item spacing/205_36	(FLOAT)	205.36000061035156	[set: html.to.design]
+item spacing/173_54	(FLOAT)	173.5399932861328	[set: html.to.design]
+item spacing/191_91	(FLOAT)	191.91000366210938	[set: html.to.design]
+item spacing/175_92	(FLOAT)	175.9199981689453	[set: html.to.design]
+item spacing/240_92	(FLOAT)	240.9199981689453	[set: html.to.design]
+item spacing/181_5	(FLOAT)	181.5	[set: html.to.design]
+item spacing/207	(FLOAT)	207	[set: html.to.design]
+item spacing/206_34	(FLOAT)	206.33999633789062	[set: html.to.design]
+item spacing/103_19	(FLOAT)	103.19000244140625	[set: html.to.design]
+item spacing/193_93	(FLOAT)	193.92999267578125	[set: html.to.design]
+item spacing/118_2	(FLOAT)	118.19999694824219	[set: html.to.design]
+item spacing/199_72	(FLOAT)	199.72000122070312	[set: html.to.design]
+item spacing/83_87	(FLOAT)	83.87000274658203	[set: html.to.design]
+item spacing/194_15	(FLOAT)	194.14999389648438	[set: html.to.design]
+item spacing/84_92	(FLOAT)	84.91999816894531	[set: html.to.design]
+item spacing/202_04	(FLOAT)	202.0399932861328	[set: html.to.design]
+item spacing/80_19	(FLOAT)	80.19000244140625	[set: html.to.design]
+item spacing/194_72	(FLOAT)	194.72000122070312	[set: html.to.design]
+item spacing/78_25	(FLOAT)	78.25	[set: html.to.design]
+item spacing/198_58	(FLOAT)	198.5800018310547	[set: html.to.design]
+item spacing/89_53	(FLOAT)	89.52999877929688	[set: html.to.design]
+item spacing/107_59	(FLOAT)	107.58999633789062	[set: html.to.design]
+item spacing/223_17	(FLOAT)	223.1699981689453	[set: html.to.design]
+item spacing/241_73	(FLOAT)	241.72999572753906	[set: html.to.design]
+item spacing/1	(FLOAT)	1	[set: html.to.design]
+item spacing/91_7	(FLOAT)	91.69999694824219	[set: html.to.design]
+item spacing/107_7	(FLOAT)	107.69999694824219	[set: html.to.design]
+item spacing/259_31	(FLOAT)	259.30999755859375	[set: html.to.design]
+item spacing/263_81	(FLOAT)	263.80999755859375	[set: html.to.design]
+item spacing/259	(FLOAT)	259	[set: html.to.design]
+item spacing/258_93	(FLOAT)	258.92999267578125	[set: html.to.design]
+item spacing/271_01	(FLOAT)	271.010009765625	[set: html.to.design]
+item spacing/266_16	(FLOAT)	266.1600036621094	[set: html.to.design]
+item spacing/216_36	(FLOAT)	216.36000061035156	[set: html.to.design]
+item spacing/206_92	(FLOAT)	206.9199981689453	[set: html.to.design]
+item spacing/151_05	(FLOAT)	151.0500030517578	[set: html.to.design]
+item spacing/209_31	(FLOAT)	209.30999755859375	[set: html.to.design]
+item spacing/254_89	(FLOAT)	254.88999938964844	[set: html.to.design]
+item spacing/216_54	(FLOAT)	216.5399932861328	[set: html.to.design]
+item spacing/200_86	(FLOAT)	200.86000061035156	[set: html.to.design]
+item spacing/210_64	(FLOAT)	210.63999938964844	[set: html.to.design]
+stroke weight/0_97	(FLOAT)	0.96875	[set: html.to.design]
+stroke weight/1_88	(FLOAT)	1.875	[set: html.to.design]
+stroke weight/1_04	(FLOAT)	1.0393750667572021	[set: html.to.design]
+stroke weight/1_63	(FLOAT)	1.625	[set: html.to.design]
+item spacing/3_93	(FLOAT)	3.930000066757202	[set: html.to.design]
+corner radius/16	(FLOAT)	16	[set: html.to.design]
+font size/20	(FLOAT)	20	[set: html.to.design]
+item spacing/14	(FLOAT)	14	[set: html.to.design]
+item spacing/12	(FLOAT)	12	[set: html.to.design]
+corner radius/24	(FLOAT)	24	[set: html.to.design]
+corner radius/40	(FLOAT)	40	[set: html.to.design]
+item spacing/5_29 2	(FLOAT)	5.295000076293945	[set: html.to.design]
+corner radius/10	(FLOAT)	10	[set: html.to.design]
+corner radius/18	(FLOAT)	18	[set: html.to.design]
+font size/8	(FLOAT)	8	[set: html.to.design]
+item spacing/5_19 2	(FLOAT)	5.195000171661377	[set: html.to.design]
+item spacing/5_18	(FLOAT)	5.179999828338623	[set: html.to.design]
+item spacing/634_12	(FLOAT)	634.1199951171875	[set: html.to.design]
+item spacing/5_49	(FLOAT)	5.489999771118164	[set: html.to.design]
+item spacing/506_89	(FLOAT)	506.8900146484375	[set: html.to.design]
+item spacing/413_03	(FLOAT)	413.0299987792969	[set: html.to.design]
+width/420	(FLOAT)	420	[set: html.to.design]
+item spacing/495_42	(FLOAT)	495.4200134277344	[set: html.to.design]
+item spacing/482_36	(FLOAT)	482.3599853515625	[set: html.to.design]
+item spacing/452_53	(FLOAT)	452.5299987792969	[set: html.to.design]
+item spacing/552_57	(FLOAT)	552.5700073242188	[set: html.to.design]
+item spacing/688_72	(FLOAT)	688.719970703125	[set: html.to.design]
+item spacing/547_11	(FLOAT)	547.1099853515625	[set: html.to.design]
+item spacing/5_38	(FLOAT)	5.385000228881836	[set: html.to.design]
+item spacing/519_5	(FLOAT)	519.5	[set: html.to.design]
+item spacing/255_72	(FLOAT)	255.72000122070312	[set: html.to.design]
+item spacing/176_31	(FLOAT)	176.30999755859375	[set: html.to.design]
+item spacing/322_53	(FLOAT)	322.5299987792969	[set: html.to.design]
+item spacing/9_99	(FLOAT)	9.989999771118164	[set: html.to.design]
+item spacing/13	(FLOAT)	13	[set: html.to.design]
+item spacing/546_42	(FLOAT)	546.4199829101562	[set: html.to.design]
+corner radius/28	(FLOAT)	28	[set: html.to.design]
+item spacing/5_39	(FLOAT)	5.385000228881836	[set: html.to.design]
+item spacing/89_64	(FLOAT)	89.63999938964844	[set: html.to.design]
+item spacing/89_56	(FLOAT)	89.55999755859375	[set: html.to.design]
+item spacing/91_73	(FLOAT)	91.7300033569336	[set: html.to.design]
+item spacing/110_79	(FLOAT)	110.79000091552734	[set: html.to.design]
+item spacing/89_69	(FLOAT)	89.69000244140625	[set: html.to.design]
+item spacing/89_95	(FLOAT)	89.94999694824219	[set: html.to.design]
+item spacing/172_33	(FLOAT)	172.3300018310547	[set: html.to.design]
+item spacing/95_22	(FLOAT)	95.22000122070312	[set: html.to.design]
+item spacing/95_14	(FLOAT)	95.13999938964844	[set: html.to.design]
+item spacing/97_31	(FLOAT)	97.30999755859375	[set: html.to.design]
+item spacing/101_34	(FLOAT)	101.33999633789062	[set: html.to.design]
+item spacing/95_53	(FLOAT)	95.52999877929688	[set: html.to.design]
+item spacing/152_22	(FLOAT)	152.22000122070312	[set: html.to.design]
+item spacing/91_85	(FLOAT)	91.8499984741211	[set: html.to.design]
+item spacing/148_74	(FLOAT)	148.74000549316406	[set: html.to.design]
+item spacing/196_71	(FLOAT)	196.7100067138672	[set: undefined]
+corner radius/8	(FLOAT)	8	[set: undefined]
+item spacing/10	(FLOAT)	10	[set: undefined]
+color/azure/33	(COLOR)	rgba(31,60,136,1) #1f3c88	[set: undefined]
+font size/13	(FLOAT)	13	[set: undefined]
+color/white/solid	(COLOR)	rgba(255,255,255,1) #ffffff	[set: undefined]
+font family/Font 1	(STRING)	{"textValue":"Inter"}	[set: undefined]
+font weight/700	(FLOAT)	700	[set: undefined]
+font weight/600	(FLOAT)	600	[set: undefined]
+color/azure/43	(COLOR)	rgba(46,134,171,1) #2e86ab	[set: undefined]
+color/grey/91	(COLOR)	rgba(229,231,235,1) #e5e7eb	[set: undefined]
+stroke weight/1	(FLOAT)	1	[set: undefined]
+item spacing/xs	(FLOAT)	8	[set: undefined]
+stroke weight/1_38	(FLOAT)	1.375	[set: undefined]
+opacity/100	(FLOAT)	100	[set: undefined]
+color/grey/46 2	(COLOR)	rgba(107,114,128,1) #6b7280	[set: undefined]
+stroke weight/1_25	(FLOAT)	1.25	[set: undefined]
+color/spring green/36	(COLOR)	rgba(22,163,74,1) #16a34a	[set: undefined]
+stroke weight/0_88	(FLOAT)	0.875	[set: undefined]
+color/azure/27	(COLOR)	rgba(55,65,81,1) #374151	[set: undefined]
+stroke weight/0_75	(FLOAT)	0.75	[set: undefined]
+font size/16	(FLOAT)	16	[set: undefined]
+font size/11	(FLOAT)	11	[set: undefined]
+letter spacing/0_55	(FLOAT)	0.550000011920929	[set: undefined]
+font weight/400	(FLOAT)	400	[set: undefined]
+color/grey/97 2	(COLOR)	rgba(238,242,255,1) #eef2ff	[set: undefined]
+stroke weight/3	(FLOAT)	3	[set: undefined]
+width/18_13	(FLOAT)	18.1299991607666	[set: undefined]
+color/grey/95 3	(COLOR)	rgba(252,235,235,1) #fcebeb	[set: undefined]
+corner radius/4	(FLOAT)	4	[set: undefined]
+color/red/51	(COLOR)	rgba(220,38,38,1) #dc2626	[set: undefined]
+color/grey/98	(COLOR)	rgba(248,249,250,1) #f8f9fa	[set: undefined]
+color/blue/89	(COLOR)	rgba(199,210,254,1) #c7d2fe	[set: undefined]
+corner radius/16	(FLOAT)	16	[set: undefined]
+color/azure/25	(COLOR)	rgba(30,58,95,1) #1e3a5f	[set: undefined]
+font size/12	(FLOAT)	12	[set: undefined]
+item spacing/12	(FLOAT)	12	[set: undefined]
+item spacing/20	(FLOAT)	20	[set: undefined]
+width/380	(FLOAT)	380	[set: undefined]
+width/138	(FLOAT)	138	[set: undefined]
+item spacing/s	(FLOAT)	16	[set: undefined]
+corner radius/17	(FLOAT)	17	[set: undefined]
+item spacing/369_42	(FLOAT)	369.4200134277344	[set: undefined]
+item spacing/xxs	(FLOAT)	4	[set: undefined]
+font size/24	(FLOAT)	24	[set: undefined]
+item spacing/6	(FLOAT)	6	[set: undefined]
+width/80	(FLOAT)	80	[set: undefined]
+corner radius/12	(FLOAT)	12	[set: undefined]
+font size/28	(FLOAT)	28	[set: undefined]
+item spacing/47_97	(FLOAT)	47.970001220703125	[set: undefined]
+item spacing/29_3	(FLOAT)	29.299999237060547	[set: undefined]
+stroke weight/2	(FLOAT)	2	[set: undefined]
+color/black/ 0%	(COLOR)	rgba(0,0,0,0) #000000	[set: undefined]
+width/64	(FLOAT)	64	[set: undefined]
+item spacing/-1	(FLOAT)	-1	[set: undefined]
+letter spacing/0_24	(FLOAT)	0.23999999463558197	[set: undefined]
+font size/9	(FLOAT)	9	[set: undefined]
+color/grey/91 2	(COLOR)	rgba(234,243,222,1) #eaf3de	[set: undefined]
+color/grey/96	(COLOR)	rgba(243,244,246,1) #f3f4f6	[set: undefined]
+stroke weight/1_5	(FLOAT)	1.5	[set: html.to.design]
+stroke weight/0_75	(FLOAT)	0.75	[set: html.to.design]
+width/74	(FLOAT)	74	[set: html.to.design]
+item spacing/84_75	(FLOAT)	84.75	[set: html.to.design]
+item spacing/71_47	(FLOAT)	71.47000122070312	[set: html.to.design]
+item spacing/72_12	(FLOAT)	72.12000274658203	[set: html.to.design]
+item spacing/107_94	(FLOAT)	107.94000244140625	[set: html.to.design]
+item spacing/51_9	(FLOAT)	51.900001525878906	[set: html.to.design]
+item spacing/3_06	(FLOAT)	3.059999942779541	[set: html.to.design]
+item spacing/3_07	(FLOAT)	3.069999933242798	[set: html.to.design]
+item spacing/3_05	(FLOAT)	3.049999952316284	[set: html.to.design]
+item spacing/171_59	(FLOAT)	171.58999633789062	[set: html.to.design]
+item spacing/166_03	(FLOAT)	166.02999877929688	[set: html.to.design]
+item spacing/100_69	(FLOAT)	100.69000244140625	[set: html.to.design]
+
+# FONTS (fontFamily / style: count)
+Inter / Regular	5756
+Inter / Semi Bold	4531
+Inter / Medium	3525
+Inter / Bold	2528
+42dot Sans / Bold	1683
+42dot Sans / Regular	1285
+JetBrains Mono / Regular	127
+JetBrains Mono / Bold	7
+Inter / Extra Bold	6
+Arial / Regular	1
+
+# TOP SOLID FILL COLORS (node count)
+rgba(55,65,81,1) #374151	7305
+rgba(107,114,128,1) #6b7280	5658
+rgba(255,255,255,1) #ffffff	3539
+rgba(31,60,136,1) #1f3c88	2194
+rgba(30,58,95,1) #1e3a5f	1980
+rgba(248,249,250,1) #f8f9fa	1002
+rgba(199,210,254,1) #c7d2fe	967
+rgba(238,242,255,1) #eef2ff	953
+rgba(46,134,171,1) #2e86ab	612
+rgba(156,163,175,1) #9ca3af	525
+rgba(22,163,74,1) #16a34a	458
+rgba(220,38,38,1) #dc2626	439
+rgba(0,0,0,1) #000000	425
+rgba(234,243,222,1) #eaf3de	358
+rgba(243,244,246,1) #f3f4f6	281
+rgba(180,83,9,1) #b45309	199
+rgba(229,231,235,1) #e5e7eb	177
+rgba(254,243,199,1) #fef3c7	155
+rgba(248,250,252,1) #f8fafc	144
+rgba(252,235,235,1) #fcebeb	119
+rgba(250,251,252,1) #fafbfc	96
+rgba(117,117,117,1) #757575	61
+rgba(245,246,248,1) #f5f6f8	50
+rgba(109,40,217,1) #6d28d9	34
+rgba(237,233,254,1) #ede9fe	30
+rgba(31,41,55,1) #1f2937	25
+rgba(30,30,30,1) #1e1e1e	18
+rgba(51,51,51,1) #333333	15
+rgba(28,119,246,1) #1c77f6	4
+rgba(229,229,229,1) #e5e5e5	3
+rgba(218,223,230,1) #dadfe6	3
+rgba(221,227,238,1) #dde3ee	3
+rgba(255,247,237,1) #fff7ed	2
+rgba(236,253,245,1) #ecfdf5	2
+rgba(221,227,236,1) #dde3ec	2
+rgba(214,69,69,1) #d64545	2
+rgba(102,102,102,1) #666666	1
+rgba(237,238,242,1) #edeef2	1
+rgba(136,145,176,1) #8891b0	1
+rgba(107,115,133,1) #6b7385	1
+rgba(26,33,55,1) #1a2137	1
+rgba(217,166,46,1) #d9a62e	1
+rgba(237,239,245,1) #edeff5	1
+rgba(244,246,251,1) #f4f6fb	1
+rgba(22,41,94,1) #16295e	1
+rgba(183,190,218,1) #b7beda	1
+rgba(237,239,247,1) #edeff7	1
+rgba(42,55,104,1) #2a3768	1
+rgba(228,232,241,1) #e4e8f1	1
+rgba(251,241,218,1) #fbf1da	1
+rgba(228,241,246,1) #e4f1f6	1
+rgba(227,246,234,1) #e3f6ea	1
+rgba(46,158,91,1) #2e9e5b	1
+rgba(201,210,238,1) #c9d2ee	1
+rgba(255,247,222,1) #fff7de	1
+rgba(240,226,168,1) #f0e2a8	1
+rgba(91,98,114,1) #5b6272	1
+rgba(118,118,118,1) #767676	1

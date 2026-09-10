@@ -1,0 +1,32 @@
+# board 19 (mobile-timesheet) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Timesheet
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x724 fill=#ffffff
+      T @16,81 87x14 fs=12 w=Regular c=#6b7280 :: Oct 9 – Oct 15
+    ▢ FRAME "div" @16,118 358x76 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T @33,135 121x19 fs=16 w=Bold c=#374151 :: Monday, Oct 9
+        T @290,137 75x14 fs=12 w=Regular c=#6b7280 :: 6.0h logged
+      T @33,162 332x14 fs=12 w=Regular c=#6b7280 :: Website Redesign · 4.5h · ERP · 1.0h
+    ▢ FRAME "div" @16,207 358x76 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T @33,225 132x19 fs=16 w=Bold c=#374151 :: Tuesday, Oct 10
+        T @290,227 75x14 fs=12 w=Regular c=#6b7280 :: 5.0h logged
+      T @33,251 332x14 fs=12 w=Regular c=#6b7280 :: Website Redesign · 3.0h · ERP · 2.0h
+    ▢ FRAME "div" @16,297 358x76 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T @33,314 154x19 fs=16 w=Bold c=#374151 :: Wednesday, Oct 11
+        T @290,316 75x14 fs=12 w=Regular c=#6b7280 :: 6.0h logged
+      T @33,341 332x14 fs=12 w=Regular c=#6b7280 :: Website Redesign · 5.0h · ERP · 0.0h
+    ▢ FRAME "div" @16,387 358x76 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+        T @33,404 139x19 fs=16 w=Bold c=#374151 :: Thursday, Oct 12
+        T @290,406 74x14 fs=12 w=Regular c=#6b7280 :: 5.7h logged
+      T @33,430 332x14 fs=12 w=Regular c=#6b7280 :: Website Redesign · 2.2h · ERP · 3.5h
+    ▢ FRAME "card" @16,476 358x73 r=12 fill=#eef2ff
+      T @163,496 73x19 fs=16 w=Bold c=#1f3c88 :: 28.5 hrs
+      T @40,515 318x14 fs=12 w=Regular c=#6b7280 :: logged this week
+  ▢ FRAME "div" @0,780 390x64 fill=#ffffff stroke=#e5e7eb sw=1
+      T @25,819 36x10 fs=10 w=Semi Bold c=#6b7280 :: Home
+      T @103,819 36x10 fs=10 w=Semi Bold c=#6b7280 :: Tasks
+      T @183,819 32x10 fs=10 w=Semi Bold c=#1f3c88 :: Time
+      T @250,819 53x10 fs=10 w=Semi Bold c=#6b7280 :: Requests
+      T @338,819 35x10 fs=10 w=Semi Bold c=#6b7280 :: Inbox

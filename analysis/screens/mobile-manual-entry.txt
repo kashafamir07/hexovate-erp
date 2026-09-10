@@ -1,0 +1,26 @@
+# board 21 (mobile-manual-entry) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: Log Time
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x788 fill=#ffffff
+    T @16,72 366x19 fs=16 w=Bold c=#374151 :: Log Time Manually
+      T @16,107 366x12 fs=12 w=Medium c=#374151 :: Project
+      ▢ FRAME "input" @16,125 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,137 138x17 fs=14 w=Regular c=#374151 :: Website Redesign
+      T @16,181 366x12 fs=12 w=Medium c=#374151 :: Task
+      ▢ FRAME "input" @16,199 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,210 153x17 fs=14 w=Regular c=#374151 :: Design pricing page
+      T @16,255 366x12 fs=12 w=Medium c=#374151 :: Date
+      ▢ FRAME "input" @16,273 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,274 81x17 fs=14 w=Regular c=#374151 :: Oct 12, 2026
+      T @16,329 366x12 fs=12 w=Medium c=#374151 :: Duration
+      ▢ FRAME "input" @16,347 358x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,348 48x17 fs=14 w=Regular c=#374151 :: 1h 45m
+      T @16,403 366x12 fs=12 w=Medium c=#374151 :: Notes
+      ▢ FRAME "input" @16,421 358x80 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+        T @29,432 342x17 fs=14 w=Regular c=#757575 :: What did you work on?
+      ▢ FRAME "chk" @16,517 16x16 r=4 fill=#1f3c88 stroke=#1f3c88 sw=1
+      T @40,517 52x16 fs=13 w=Regular c=#374151 :: Billable
+    ▢ FRAME "btn" @16,553 358x36 r=8 fill=#1f3c88
+      T @32,553 326x36 fs=14 w=Regular c=#ffffff :: Save Entry

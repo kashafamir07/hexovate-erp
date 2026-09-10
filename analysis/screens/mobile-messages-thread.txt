@@ -1,0 +1,28 @@
+# board 29 (mobile-messages-thread) 390x844
+▢ FRAME "mshell" @0,0 390x844 fill=#ffffff
+    T @58,20 282x15 fs=15 w=Bold c=#374151 :: website-redesign
+      ▢ FRAME "dot-badge" @362,9 14x13 r=8 fill=#dc2626
+        T @366,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+  ▢ FRAME "div" @0,56 390x724 fill=#ffffff
+      ▢ FRAME "avatar" @16,72 32x32 r=50 fill=#1f3c88
+        T @22,81 21x14 fs=12 w=Bold c=#ffffff :: WR
+        T @58,72 138x17 fs=14 w=Bold c=#374151 :: #website-redesign
+        T @58,89 138x14 fs=12 w=Regular c=#6b7280 :: 12 members
+      ▢ FRAME "avatar" @16,118 32x32 r=50 fill=#2e86ab
+        T @25,127 15x14 fs=12 w=Bold c=#ffffff :: SJ
+        T @58,118 215x14 fs=12 w=Regular c=#000000 :: Sarah 10:14 AM
+        T @58,134 215x14 fs=12 w=Regular c=#374151 :: Can we add an annual billing toggle?
+      ▢ FRAME "avatar" @16,166 32x32 r=50 fill=#1f3c88
+        T @24,175 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,166 227x14 fs=12 w=Regular c=#000000 :: Jordan 10:22 AM
+        T @58,182 227x14 fs=12 w=Regular c=#374151 :: Yep, adding it to the wireframe now 👍
+  ▢ FRAME "div" @0,780 390x64 fill=#ffffff stroke=#e5e7eb sw=1
+      T @25,819 36x10 fs=10 w=Semi Bold c=#6b7280 :: Home
+      T @103,819 36x10 fs=10 w=Semi Bold c=#6b7280 :: Tasks
+      T @183,819 32x10 fs=10 w=Semi Bold c=#6b7280 :: Time
+      T @250,819 53x10 fs=10 w=Semi Bold c=#6b7280 :: Requests
+      T @338,819 35x10 fs=10 w=Semi Bold c=#1f3c88 :: Inbox
+▢ FRAME "div" @0,721 390x59 fill=#ffffff stroke=#e5e7eb sw=1
+  ▢ FRAME "input" @12,732 320x38 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+    T @25,733 72x17 fs=14 w=Regular c=#6b7280 :: Message...
+  ▢ FRAME "icon-btn" @340,732 38x38 r=8 fill=#1f3c88

@@ -1,0 +1,76 @@
+# board 36 (account-settings) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+        ▢ FRAME "nav-item" @12,123 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,135 146x17 fs=14 w=Medium c=#1f3c88 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,216 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,264 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+          T @54,295 63x17 fs=14 w=Medium c=#374151 :: Projects
+          T @54,335 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,375 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,423 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,454 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,494 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,542 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,573 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 222x17 fs=12 w=Regular c=#000000 :: Personal Workspace  /  Settings
+      ▢ FRAME "top-search" @494,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @531,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+      ▢ FRAME "card" @268,84 984x122 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          ▢ FRAME "avatar" @293,105 80x80 r=50 fill=#1f3c88
+            T @316,129 35x32 fs=26 w=Bold c=#ffffff :: JC
+            T @391,127 776x18 fs=18 w=Bold c=#374151 :: Jordan Cole
+            T @391,149 776x14 fs=12 w=Regular c=#6b7280 :: Product Designer · Design Department
+          T @284,236 60x16 fs=13 w=Semi Bold c=#6b7280 :: Overview
+          T @380,236 73x16 fs=13 w=Semi Bold c=#6b7280 :: Documents
+          T @488,236 66x16 fs=13 w=Semi Bold c=#6b7280 :: Time Logs
+          T @589,236 87x16 fs=13 w=Semi Bold c=#6b7280 :: Leave History
+          T @711,236 53x16 fs=13 w=Semi Bold c=#1f3c88 :: Settings
+          ▢ FRAME "card" @268,282 643x281 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,303 600x19 fs=16 w=Bold c=#374151 :: Profile Details
+            T @293,336 600x12 fs=12 w=Medium c=#374151 :: Full Name
+            ▢ FRAME "input" @293,354 592x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @306,355 76x17 fs=14 w=Regular c=#374151 :: Jordan Cole
+            T @293,410 600x12 fs=12 w=Medium c=#374151 :: Phone
+            ▢ FRAME "input" @293,428 592x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @306,429 120x17 fs=14 w=Regular c=#374151 :: +1 (415) 555-0148
+            T @293,484 600x12 fs=12 w=Medium c=#374151 :: Location
+            ▢ FRAME "input" @293,502 592x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @306,503 86x17 fs=14 w=Regular c=#374151 :: New York, NY
+          ▢ FRAME "card" @268,579 643x207 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @293,600 600x19 fs=16 w=Bold c=#374151 :: Change Password
+            T @293,633 600x12 fs=12 w=Medium c=#374151 :: Current Password
+            ▢ FRAME "input" @293,651 592x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @306,652 56x17 fs=14 w=Regular c=#374151 :: ••••••••
+            T @293,707 600x12 fs=12 w=Medium c=#374151 :: New Password
+            ▢ FRAME "input" @293,725 592x40 r=8 fill=#ffffff stroke=#e5e7eb sw=1
+            T @306,726 136x17 fs=14 w=Regular c=#757575 :: At least 10 characters
+          ▢ FRAME "card" @931,282 321x163 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @956,303 279x19 fs=16 w=Bold c=#374151 :: Notification Preferences
+            T @956,339 109x14 fs=12 w=Regular c=#374151 :: Task assignments
+            ▢ FRAME "chk" @1191,336 36x20 r=10 fill=#1f3c88 stroke=#1f3c88 sw=1
+            T @956,373 108x14 fs=12 w=Regular c=#374151 :: Approval updates
+            ▢ FRAME "chk" @1191,370 36x20 r=10 fill=#1f3c88 stroke=#1f3c88 sw=1
+            T @956,407 121x14 fs=12 w=Regular c=#374151 :: Weekly digest email
+          ▢ FRAME "card" @931,461 321x144 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+            T @956,482 279x19 fs=16 w=Bold c=#374151 :: Security
+            T @956,517 155x14 fs=12 w=Regular c=#374151 :: Two-factor authentication
+            ▢ FRAME "badge" @1169,515 58x19 r=4 fill=#eaf3de
+            T @1177,517 43x11 fs=11 w=Medium c=#16a34a :: Enabled
+            T @973,549 237x34 fs=14 w=Regular c=#374151 :: Log Out of All Devices
+        ▢ FRAME "btn" @1124,1094 128x36 r=8 fill=#1f3c88
+          T @1140,1094 96x36 fs=14 w=Regular c=#ffffff :: Save Changes

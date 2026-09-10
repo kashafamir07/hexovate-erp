@@ -1,0 +1,71 @@
+# board 8 (project-detail) 1280x900
+  ▢ FRAME "sidebar" @0,0 240x900 fill=#ffffff stroke=#e5e7eb
+      T @20,18 220x18 fs=18 w=Bold c=#1f3c88 :: HEXOVATE
+          T @22,64 215x11 fs=11 w=Semi Bold c=#6b7280 :: MAIN
+          T @54,95 81x17 fs=14 w=Medium c=#374151 :: Dashboard
+          T @54,135 146x17 fs=14 w=Medium c=#374151 :: Personal Workspace
+          T @22,183 215x11 fs=11 w=Semi Bold c=#6b7280 :: PEOPLE
+          T @54,220 73x17 fs=14 w=Medium c=#374151 :: Org Chart
+          T @22,268 215x11 fs=11 w=Semi Bold c=#6b7280 :: WORK
+        ▢ FRAME "nav-item" @12,287 215x40 r=8 fill=#eef2ff stroke=#1f3c88
+          T @53,299 63x17 fs=14 w=Medium c=#1f3c88 :: Projects
+          T @54,339 72x17 fs=14 w=Medium c=#374151 :: My Tasks
+          T @54,379 96x17 fs=14 w=Medium c=#374151 :: Time Tracker
+          T @22,427 215x11 fs=11 w=Semi Bold c=#6b7280 :: COMMS
+          T @54,458 76x17 fs=14 w=Medium c=#374151 :: Messages
+          T @54,498 118x17 fs=14 w=Medium c=#374151 :: Announcements
+          T @22,546 215x11 fs=11 w=Semi Bold c=#6b7280 :: REQUESTS
+          T @54,577 95x17 fs=14 w=Medium c=#374151 :: My Requests
+      ▢ FRAME "avatar" @16,854 32x32 r=50 fill=#1f3c88
+        T @24,863 16x14 fs=12 w=Bold c=#ffffff :: JC
+        T @58,856 84x16 fs=13 w=Semi Bold c=#374151 :: Jordan Cole
+        T @58,871 84x13 fs=11 w=Regular c=#6b7280 :: Employee
+  ▢ FRAME "main" @240,0 1040x900 fill=#ffffff
+      T @264,21 204x17 fs=12 w=Regular c=#000000 :: Projects  /  Website Redesign
+      ▢ FRAME "top-search" @476,11 420x36 r=8 fill=#f8f9fa stroke=#e5e7eb sw=1
+        T @513,22 110x16 fs=13 w=Regular c=#6b7280 :: Search (Cmd+K)
+        ▢ FRAME "icon-btn" @1176,12 34x34 r=8 fill=#f8f9fa
+          ▢ FRAME "dot-badge" @1199,9 14x13 r=8 fill=#dc2626
+            T @1203,10 6x9 fs=9 w=Bold c=#ffffff :: 3
+        ▢ FRAME "avatar" @1224,13 32x32 r=50 fill=#1f3c88
+          T @1232,22 16x14 fs=12 w=Bold c=#ffffff :: JC
+    ▢ FRAME "content" @240,60 1040x840 fill=#ffffff
+            T @268,84 201x27 fs=22 w=Bold c=#1f3c88 :: Website Redesign
+            ▢ FRAME "badge" @588,88 49x19 r=4 fill=#eef2ff
+            T @596,90 34x11 fs=11 w=Medium c=#1f3c88 :: Active
+          T @268,115 377x14 fs=12 w=Regular c=#6b7280 :: Full marketing site rebuild with new brand system · Oct 1 – Oct 24
+          ▢ FRAME "avatar" @1172,91 32x32 r=50 fill=#2e86ab
+            T @1181,99 15x14 fs=12 w=Bold c=#ffffff :: SJ
+          ▢ FRAME "avatar" @1196,91 32x32 r=50 fill=#16a34a
+            T @1202,99 21x14 fs=12 w=Bold c=#ffffff :: MC
+          ▢ FRAME "avatar" @1220,91 32x32 r=50 fill=#6b7280
+            T @1228,99 17x14 fs=12 w=Bold c=#ffffff :: +3
+          T @284,159 60x16 fs=13 w=Semi Bold c=#1f3c88 :: Overview
+          T @380,159 37x16 fs=13 w=Semi Bold c=#6b7280 :: Board
+          T @453,159 46x16 fs=13 w=Semi Bold c=#6b7280 :: Sprints
+          T @534,159 36x16 fs=13 w=Semi Bold c=#6b7280 :: Gantt
+          T @604,159 30x16 fs=13 w=Semi Bold c=#6b7280 :: Files
+          T @669,159 28x16 fs=13 w=Semi Bold c=#6b7280 :: Wiki
+          T @733,159 76x16 fs=13 w=Semi Bold c=#6b7280 :: Discussions
+        ▢ FRAME "card" @268,207 234x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @293,228 193x26 fs=26 w=Bold c=#1f3c88 :: 48
+          T @293,258 192x14 fs=12 w=Regular c=#6b7280 :: Total Tasks
+        ▢ FRAME "card" @518,207 234x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @543,228 193x26 fs=26 w=Bold c=#16a34a :: 36
+          T @543,258 192x14 fs=12 w=Regular c=#6b7280 :: Completed
+        ▢ FRAME "card" @768,207 234x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @793,228 193x26 fs=26 w=Bold c=#dc2626 :: 4
+          T @793,258 192x14 fs=12 w=Regular c=#6b7280 :: Overdue
+        ▢ FRAME "card" @1018,207 234x87 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @1043,228 193x26 fs=26 w=Bold c=#6d28d9 :: 6
+          T @1043,258 192x14 fs=12 w=Regular c=#6b7280 :: In Review
+        ▢ FRAME "card" @268,314 643x792 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @293,335 600x19 fs=16 w=Bold c=#374151 :: Budget Progress
+          ▢ FRAME "progress" @293,368 592x6 r=4 fill=#e5e7eb
+            ▢ FRAME "span" @293,368 403x6 r=4 fill=#1f3c88
+            T @293,382 91x14 fs=12 w=Regular c=#6b7280 :: $34,000 spent
+            T @794,382 99x14 fs=12 w=Regular c=#6b7280 :: $50,000 budget
+        ▢ FRAME "card" @931,314 321x792 r=12 fill=#ffffff stroke=#e5e7eb sw=1
+          T @956,335 279x19 fs=16 w=Bold c=#374151 :: Recent Activity
+            T @956,380 255x14 fs=12 w=Regular c=#000000 :: Sarah moved Homepage Copy to In Review
+            T @956,419 215x14 fs=12 w=Regular c=#000000 :: Jordan uploaded Wireframes_v3.fig
